@@ -1,0 +1,4 @@
+[submodule "lib/dense_flow"]
+	path = lib/dense_flow
+	url = https://github.com/antran89/dense_flow.git
+	branch = df_opencv2.4
