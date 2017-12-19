@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
 
+# adapted from build.sh from AIQ
+NUMPROCS=`cat /proc/cpuinfo | grep "processor" | wc -l`
+
+# update the submodules: Caffe and Dense Flow
+git submodule update --remote
+
 # install Caffe dependencies
 sudo apt-get -qq install libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler libatlas-base-dev
-sudo apt-get -qq install --no-install-recommends libboost1.55-all-dev
+sudo apt-get -qq install --no-install-recommends libboost-all-dev
 sudo apt-get -qq install libgflags-dev libgoogle-glog-dev liblmdb-dev
 
 # adapt from Yjxiong's code
@@ -30,41 +36,43 @@ cd opencv-$version
 [[ -d build ]] || mkdir build
 cd build
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D WITH_TBB=ON  -D WITH_V4L=ON ..
-if make -j32 ; then
-    cp lib/cv2.so ../../../
+if make -j $NUMPROCS ; then
+    #cp lib/cv2.so ../../../
     echo "OpenCV" $version "built."
 else
     echo "Failed to build OpenCV. Please check the logs above."
     exit 1
 fi
+cd ../../../
 
 # install compensated dense flow toolbox, 
-#alternative, you can install it from Wang Limin's toolbox: https://github.com/yjxiong/dense_flow
-git clone -b df_opencv2.4 --single-branch https://github.com/antran89/dense_flow.git
-cd dense_flow
-mkdir src-build
+# alternative, you can install it from Wang Limin's toolbox: https://github.com/yjxiong/dense_flow
+# build dense_flow
+echo "Building dense_flow"
+cd lib/dense_flow
+[[ -d src-build ]] || mkdir src-build
 cd src-build
-cmake ../src
+OpenCV_DIR=../../../3rd-party/opencv-$version/build/ cmake ../src -DCUDA_USE_STATIC_CUDA_RUNTIME=OFF
 
-if make -j ; then
+if make -j $NUMPROCS ; then
     echo "Dense Flow built."
 else
     echo "Failed to build Dense Flow. Please check the logs above."
     exit 1
 fi
+cd ../../../
 
-# # install my-very-deep-caffe
-# git clone -b rnn-support --single-branch https://github.com/antran89/my-very-deep-caffe.git
-# cd my-very-deep-caffe
-# mkdir cmake-build
-# cd cmake-build
-# cmake ..
+# install my-very-deep-caffe, adapt from TSN's script
+cd lib/my-very-deep-caffe
+[[ -d cmake-build ]] || mkdir cmake-build
+cd cmake-build
+OpenCV_DIR=../../../3rd-party/opencv-$version/build/ cmake .. -DCUDA_USE_STATIC_CUDA_RUNTIME=OFF
 
-# if make -j 10 install ; then
-#     echo "Caffe Built."
-#     echo "All tools built. Happy experimenting!"
-#     cd ../../
-# else
-#     echo "Failed to build Caffe. Please check the logs above."
-#     exit 1
-# fi
+if make -j $NUMPROCS install ; then
+    echo "Caffe built."
+    echo "All tools built. Happy experimenting!"
+    cd ../../../
+else
+    echo "Failed to build Caffe. Please check the logs above."
+    exit 1
+fi
