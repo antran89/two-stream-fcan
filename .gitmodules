@@ -2,3 +2,7 @@
 	path = lib/dense_flow
 	url = https://github.com/antran89/dense_flow.git
 	branch = df_opencv2.4
+[submodule "lib/my-very-deep-caffe"]
+	path = lib/my-very-deep-caffe
+	url = https://github.com/antran89/my-very-deep-caffe.git
+	branch = rnn-support
