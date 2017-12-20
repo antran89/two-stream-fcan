@@ -13,6 +13,8 @@ The repository contains different models implemented in [Two-stream FCAN](https:
 
 ### Oct 02, 2017
 
+### Dec 18, 2017
+
 Plan to release the source codes:
 
 [ ] Write build_all.sh script
