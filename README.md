@@ -17,8 +17,6 @@ The repository contains different models implemented in [Two-stream FCAN](https:
 
 Plan to release the source codes:
 
-[ ] Write build_all.sh script
-
-[ ] Release dictionary file
-
-[ ] Release test prototxt file
+- [x] Write build_all.sh script
+- [] Release dictionary file
+- [] Release test prototxt file
