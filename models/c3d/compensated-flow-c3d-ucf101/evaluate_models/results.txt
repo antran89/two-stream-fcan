@@ -1,0 +1,294 @@
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_model2_iter_20000
+Probability extention: prob
+Clip accuracy on testset split 1 of UCF101 is 0.680677
+Expriment finished at 2016-10-31 15:52:09.923041 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_model2_iter_20000
+Probability extention: prob
+Video accuracy on testset split 1 of UCF101 is 0.802009
+Expriment finished at 2016-10-31 15:52:12.780603 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_model1_iter_10000
+Probability extention: prob
+Clip accuracy on testset split 1 of UCF101 is 0.549491
+Expriment finished at 2016-10-31 16:43:08.307427 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_model1_iter_10000
+Probability extention: prob
+Video accuracy on testset split 1 of UCF101 is 0.704203
+Expriment finished at 2016-10-31 16:43:11.332872 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_model3_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.690917
+Expriment finished at 2016-11-01 16:21:02.860396 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_model3_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.809146
+Expriment finished at 2016-11-01 16:21:05.794495 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features-10view//c3d_flow_nd_conv_bs150_model3_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.714818
+Expriment finished at 2016-11-01 23:29:15.964495 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features-10view//c3d_flow_nd_conv_bs150_model3_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.816019
+Expriment finished at 2016-11-01 23:29:20.264357 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features-10view//c3d_flow_nd_conv_bs150_model2_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.701920
+Expriment finished at 2016-11-01 23:47:57.908278 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features-10view//c3d_flow_nd_conv_bs150_model2_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.805710
+Expriment finished at 2016-11-01 23:50:58.674889 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_fi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.706293
+Expriment finished at 2016-11-17 23:04:00.231077 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_fi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.830558
+Expriment finished at 2016-11-17 23:04:03.361196 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_fi2_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.712584
+Expriment finished at 2016-11-17 23:06:18.725976 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/extracted_features/new_test_data/c3d-features//c3d_flow_nd_conv_bs150_fi2_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.836373
+Expriment finished at 2016-11-17 23:06:21.588342 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_nd_conv_bs150_fi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.706245
+Expriment finished at 2016-12-09 15:51:05.683053 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_nd_conv_bs150_fi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.830558
+Expriment finished at 2016-12-09 15:51:08.587034 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_flow_bn_bs105_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.686198
+Expriment finished at 2016-12-28 15:25:33.875970 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_flow_bn_bs105_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.808353
+Expriment finished at 2016-12-28 15:25:37.295330 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_flow_bn_bs105_nopretrain_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.600480
+Expriment finished at 2017-01-02 16:05:50.580198 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_flow_bn_bs105_nopretrain_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.735660
+Expriment finished at 2017-01-02 16:30:59.711467 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.719743
+Expriment finished at 2017-01-19 14:05:08.860940 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.846154
+Expriment finished at 2017-01-19 14:15:30.382278 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_all_bs120_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.691466
+Expriment finished at 2017-01-23 13:16:57.812923 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_all_bs120_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.810997
+Expriment finished at 2017-01-23 13:17:00.914353 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_bs128_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.668807
+Expriment finished at 2017-01-25 16:50:03.922972 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_bs128_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.781919
+Expriment finished at 2017-01-25 16:50:06.808125 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_all_bs128_wi2_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.597370
+Expriment finished at 2017-01-26 17:25:39.646038 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_all_bs128_wi2_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.726143
+Expriment finished at 2017-01-26 17:34:54.398194 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_all_bs128_wi3_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.652950
+Expriment finished at 2017-01-28 18:17:04.347283 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bn_all_bs128_wi3_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.784827
+Expriment finished at 2017-01-28 18:17:07.269971 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of UCF101 is 0.719743
+Expriment finished at 2017-02-15 21:48:09.477787 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of UCF101 is 0.846154
+Expriment finished at 2017-02-15 21:48:12.397925 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Probability extention: flow_fc8
+Clip accuracy on testset split 1 of UCF101 is 0.719743
+Expriment finished at 2017-02-27 00:04:01.290120 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Probability extention: flow_fc8
+Video accuracy on testset split 1 of UCF101 is 0.842453
+Expriment finished at 2017-02-27 00:04:04.417668 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split2_bs120_fi1_iter_20000
+Probability extention: flow_fc8
+Clip accuracy on testset split 2 of UCF101 is 0.719652
+Expriment finished at 2017-03-06 21:50:30.912926 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split2_bs120_fi1_iter_20000
+Probability extention: flow_fc8
+Video accuracy on testset split 2 of UCF101 is 0.858864
+Expriment finished at 2017-03-06 22:01:44.630112 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split2_bs120_fi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 2 of UCF101 is 0.719652
+Expriment finished at 2017-03-06 22:14:33.308668 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split2_bs120_fi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 2 of UCF101 is 0.857258
+Expriment finished at 2017-03-06 22:25:05.233138 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 3 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split3_bs126_fi1_iter_20000
+Probability extention: flow_fc8
+Clip accuracy on testset split 3 of UCF101 is 0.740128
+Expriment finished at 2017-03-08 12:01:30.373922 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 3 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split3_bs126_fi1_iter_20000
+Probability extention: flow_fc8
+Video accuracy on testset split 3 of UCF101 is 0.869589
+Expriment finished at 2017-03-08 12:01:33.244957 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 3 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split3_bs126_fi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 3 of UCF101 is 0.740128
+Expriment finished at 2017-03-08 12:47:08.769545 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 3 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features//c3d_flow_train_val_lmdb_split3_bs126_fi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 3 of UCF101 is 0.870400
+Expriment finished at 2017-03-08 12:47:11.718377 

@@ -18,7 +18,7 @@ The repository contains different models implemented in [Two-stream FCAN](https:
 Plan to release the source codes:
 
 - [x] Write build_all.sh script
-- [ ] Release scripts to create database file
+- [x] Release scripts to create database file
 - [ ] Release test prototxt file
 - [ ] Release caffemodel file
 - [ ] Release classification scripts.
