@@ -32,7 +32,7 @@ else
 fi
 
 # folder to contain Python scripts file
-INSTALL=/home/tranlaman/Desktop/caffe-workspace/very-deep-two-stream-conv/classify-video/
+INSTALL=../../../../very-deep-two-stream-conv/classify-video/
 
 start=$(date +%s)
 
