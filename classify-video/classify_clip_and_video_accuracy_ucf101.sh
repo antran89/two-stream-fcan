@@ -32,7 +32,7 @@ else
 fi
 
 # folder to contain Python scripts file
-INSTALL=../../../../very-deep-two-stream-conv/classify-video/
+INSTALL="$(dirname $(readlink -f "$0"))"
 
 start=$(date +%s)
 

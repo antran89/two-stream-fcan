@@ -1,0 +1,1 @@
+/home/tranlaman/Desktop/caffe-workspace/very-deep-two-stream-conv/two-stream-fcan/scripts/generate_train_test_prefix_file.py

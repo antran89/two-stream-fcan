@@ -1,0 +1,1 @@
+/home/tranlaman/Desktop/caffe-workspace/very-deep-two-stream-conv/two-stream-fcan/scripts/create_hollywood2_output_folders.py
