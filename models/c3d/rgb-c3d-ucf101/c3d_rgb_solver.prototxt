@@ -1,0 +1,15 @@
+net: "c3d_rgb_train_val_lmdb_new_format.prototxt"
+test_iter: 1000
+test_interval: 500
+base_lr: 0.0001
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 12000
+stepvalue: 18000
+display: 20
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "ucf101_c3d_rgb_split1_bs128_fi1"
+iter_size: 2

@@ -10,7 +10,6 @@ $INSTALL/caffe train \
 --weights=pre-trained-models/c3d_flow_sport1m_newcaffe_format.caffemodel
 
 echo "Done~!"
-
 end=$(date +%s)
 
 let deltatime=end-start

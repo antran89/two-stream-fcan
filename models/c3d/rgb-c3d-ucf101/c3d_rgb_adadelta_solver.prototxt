@@ -1,0 +1,14 @@
+net: "c3d_rgb_train_val_lmdb_new_format.prototxt"
+test_iter: 1000
+test_interval: 500
+type: "AdaDelta"
+delta: 1e-6
+base_lr: 0.001
+lr_policy: "fixed"
+momentum: 0.95
+weight_decay: 0.0005
+display: 20
+max_iter: 20000
+snapshot: 5000
+snapshot_prefix: "c3d_rgb_adadelta_bs105_drop0.9_wi1"
+iter_size: 1
