@@ -1,0 +1,1 @@
+/home/tranlaman/Desktop/caffe-workspace/very-deep-two-stream-conv/models/spatial-cnn/spatial-cnn-hmdb51/extract_features/generate_train_test_prefix_file.py

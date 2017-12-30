@@ -5,9 +5,9 @@ INSTALL=../../../lib/my-very-deep-caffe/cmake-build/tools
 start=$(date +%s)
 
 $INSTALL/caffe train \
---solver=c3d_rgb_solver.prototxt \
---gpu=0,1,2,3 \
---weights=pre-trained-models/conv3d_deepnetA_sport1m_iter_1900000_newcaffe_format_rgb_prefix.caffemodel
+--solver=c3d_flow_solver.prototxt \
+--gpu=0,1,2 \
+--weights=pre-trained-models/c3d_flow_sport1m_newcaffe_format.caffemodel
 
 echo "Done~!"
 

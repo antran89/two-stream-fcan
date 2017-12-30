@@ -6,20 +6,18 @@ layer {
   top: "data"
   top: "label"
   flow_data_param {
-    source: "/home/tranlaman/Public/data/new-caffe-database/ucf101_comp_tvl1_overlapping_segment16_train_test_split1/val_flow_lmdb/"
+    source: "/media/tranlaman/055A1379187B92F1/new-caffe-database/hmdb51_comp_tvl1_overlapping_len16_train_test_split3/val_flow_lmdb/"
     backend: LMDB
-    batch_size: 5
+    batch_size: 50
     new_length: 16
-    num_segments: 1
     modality: FLOW
-    test_10view_features: true
   }
   transform_param {
     new_height: 128
     new_width: 171
     crop_size: 112
-    mirror: true
-    fix_crop: true
+    mirror: false
+    fix_crop: false
     multi_scale: false
     max_distort: 1
     scale_ratios: [1,0.875,0.75,0.66]
@@ -64,33 +62,6 @@ layer {
       type: "constant"
       value: 0
     }
-  }
-}
-layer {
-  name: "flow_bn1a"
-  type: "BatchNorm"
-  bottom: "flow_conv1a"
-  top: "flow_conv1a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale1a"
-  type: "Scale"
-  bottom: "flow_conv1a"
-  top: "flow_conv1a"
-  scale_param {
-    bias_term: true
   }
 }
 layer {
@@ -146,33 +117,6 @@ layer {
   }
 }
 layer {
-  name: "flow_bn2a"
-  type: "BatchNorm"
-  bottom: "flow_conv2a"
-  top: "flow_conv2a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale2a"
-  type: "Scale"
-  bottom: "flow_conv2a"
-  top: "flow_conv2a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
   name: "flow_relu2a"
   type: "ReLU"
   bottom: "flow_conv2a"
@@ -225,33 +169,6 @@ layer {
   }
 }
 layer {
-  name: "flow_bn3a"
-  type: "BatchNorm"
-  bottom: "flow_conv3a"
-  top: "flow_conv3a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale3a"
-  type: "Scale"
-  bottom: "flow_conv3a"
-  top: "flow_conv3a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
   name: "flow_relu3a"
   type: "ReLU"
   bottom: "flow_conv3a"
@@ -287,33 +204,6 @@ layer {
       type: "constant"
       value: 1
     }
-  }
-}
-layer {
-  name: "flow_bn3b"
-  type: "BatchNorm"
-  bottom: "flow_conv3b"
-  top: "flow_conv3b"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale3b"
-  type: "Scale"
-  bottom: "flow_conv3b"
-  top: "flow_conv3b"
-  scale_param {
-    bias_term: true
   }
 }
 layer {
@@ -370,33 +260,6 @@ layer {
   }
 }
 layer {
-  name: "flow_bn4a"
-  type: "BatchNorm"
-  bottom: "flow_conv4a"
-  top: "flow_conv4a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale4a"
-  type: "Scale"
-  bottom: "flow_conv4a"
-  top: "flow_conv4a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
   name: "flow_relu4a"
   type: "ReLU"
   bottom: "flow_conv4a"
@@ -432,33 +295,6 @@ layer {
       type: "constant"
       value: 1
     }
-  }
-}
-layer {
-  name: "flow_bn4b"
-  type: "BatchNorm"
-  bottom: "flow_conv4b"
-  top: "flow_conv4b"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale4b"
-  type: "Scale"
-  bottom: "flow_conv4b"
-  top: "flow_conv4b"
-  scale_param {
-    bias_term: true
   }
 }
 layer {
@@ -515,33 +351,6 @@ layer {
   }
 }
 layer {
-  name: "flow_bn5a"
-  type: "BatchNorm"
-  bottom: "flow_conv5a"
-  top: "flow_conv5a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale5a"
-  type: "Scale"
-  bottom: "flow_conv5a"
-  top: "flow_conv5a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
   name: "flow_relu5a"
   type: "ReLU"
   bottom: "flow_conv5a"
@@ -577,33 +386,6 @@ layer {
       type: "constant"
       value: 1
     }
-  }
-}
-layer {
-  name: "flow_bn5b"
-  type: "BatchNorm"
-  bottom: "flow_conv5b"
-  top: "flow_conv5b"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale5b"
-  type: "Scale"
-  bottom: "flow_conv5b"
-  top: "flow_conv5b"
-  scale_param {
-    bias_term: true
   }
 }
 layer {
@@ -669,7 +451,7 @@ layer {
   bottom: "flow_fc6"
   top: "flow_fc6"
   dropout_param {
-    dropout_ratio: 0.9
+    dropout_ratio: 0.5
   }
 }
 layer {
@@ -712,7 +494,7 @@ layer {
   bottom: "flow_fc7"
   top: "flow_fc7"
   dropout_param {
-    dropout_ratio: 0.8
+    dropout_ratio: 0.5
   }
 }
 layer {
@@ -729,7 +511,7 @@ layer {
     decay_mult: 0
   }
   inner_product_param {
-    num_output: 101
+    num_output: 51
     weight_filler {
       type: "gaussian"
       std: 0.01
@@ -741,19 +523,8 @@ layer {
   }
 }
 layer {
-  name: "accuracy"
-  type: "Accuracy"
+  name: "flow_prob"
+  type: "Softmax"
   bottom: "flow_fc8"
-  bottom: "label"
-  top: "accuracy"
-  include {
-    phase: TEST
-  }
-}
-layer {
-  name: "loss"
-  type: "SoftmaxWithLoss"
-  bottom: "flow_fc8"
-  bottom: "label"
-  top: "loss"
+  top: "flow_prob"
 }

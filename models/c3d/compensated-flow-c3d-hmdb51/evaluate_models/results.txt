@@ -1,0 +1,84 @@
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of HMDB51 is 0.425641
+Expriment finished at 2017-01-19 18:02:45.907163 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 1 of HMDB51 is 0.557516
+Expriment finished at 2017-01-19 18:11:38.691328 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Probability extention: flow_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.425641
+Expriment finished at 2017-02-28 21:29:52.645688 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Probability extention: flow_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.569281
+Expriment finished at 2017-02-28 21:29:54.823600 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000
+Probability extention: flow_fc8
+Clip accuracy on testset split 2 of HMDB51 is 0.441808
+Expriment finished at 2017-03-09 21:25:38.343970 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000
+Probability extention: flow_fc8
+Video accuracy on testset split 2 of HMDB51 is 0.562745
+Expriment finished at 2017-03-09 21:25:40.488673 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 2 of HMDB51 is 0.441808
+Expriment finished at 2017-03-09 21:25:42.802516 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 2 of HMDB51 is 0.562745
+Expriment finished at 2017-03-09 21:25:44.803484 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000
+Probability extention: flow_fc8
+Clip accuracy on testset split 3 of HMDB51 is 0.434816
+Expriment finished at 2017-03-11 16:37:45.099630 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000
+Probability extention: flow_fc8
+Video accuracy on testset split 3 of HMDB51 is 0.577778
+Expriment finished at 2017-03-11 16:53:31.274217 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000
+Probability extention: flow_prob
+Clip accuracy on testset split 3 of HMDB51 is 0.434816
+Expriment finished at 2017-03-11 17:07:30.104468 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features//hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000
+Probability extention: flow_prob
+Video accuracy on testset split 3 of HMDB51 is 0.577778
+Expriment finished at 2017-03-11 17:24:07.290824 

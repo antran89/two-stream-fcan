@@ -29,10 +29,10 @@ MODEL=$2
 GPU_ID=0
 
 # some parameters for the program
-MODEL_PROTOTXT=c3d_flow_nd_conv_1view_testset.prototxt
-BLOB_NAME="flow_fc8"
+MODEL_PROTOTXT=c3d_rgb_nd_conv_10view_testset.prototxt
+BLOB_NAME="rgb_prob"
 TIME_STAMP=$(date +%d.%H%M%S)
-BATCH_SIZE=50
+BATCH_SIZE=5
 FEATURE_FOLDER=$3
 OUT_FOLDER_LINK=$(printf 'out_%s' $TIME_STAMP)
 
@@ -56,13 +56,13 @@ if [ ! -d $FEATURE_FOLDER ]; then
 fi
 
 ln -s $FEATURE_FOLDER $OUT_FOLDER_LINK
-python create_hollywood2_output_folders.py --output_folder=$OUT_FOLDER_LINK
+python create_hmdb51_output_folders.py --output_folder=$OUT_FOLDER_LINK
 
-DATABASE=/media/tranlaman/data/new-caffe-database/hollywood2_comp_tvl1_overlapping_len16_train_test_split1
+DATABASE=/media/tranlaman/data/new-caffe-database/hmdb51_rgb_overlapping_len16_train_test_split1
 TRAIN_LIST_FILE=$(printf 'feature_extraction_train_list_prefix_%s.txt' $TIME_STAMP)
 TEST_LIST_FILE=$(printf 'feature_extraction_test_list_prefix_%s.txt' $TIME_STAMP)
-TRAIN_KEY_FILE=$DATABASE/train_flow_lmdb/train_lmdb_keys.txt
-TEST_KEY_FILE=$DATABASE/val_flow_lmdb/test_lmdb_keys.txt
+TRAIN_KEY_FILE=$DATABASE/train_rgb_lmdb/train_lmdb_keys.txt
+TEST_KEY_FILE=$DATABASE/val_rgb_lmdb/test_lmdb_keys.txt
 if [[ ! -f $TRAIN_LIST_FILE || ! -f $TEST_LIST_FILE ]]; then
 	python generate_train_test_prefix_file.py --output_folder=$OUT_FOLDER_LINK --batch_size=$BATCH_SIZE \
 	--train_key_file=$TRAIN_KEY_FILE \
@@ -72,7 +72,7 @@ if [[ ! -f $TRAIN_LIST_FILE || ! -f $TEST_LIST_FILE ]]; then
 fi
 
 # extract features of test data
-$TOOLS/extract_1view_features_from_database $MODEL_PROTOTXT \
+$TOOLS/extract_10view_features_from_database $MODEL_PROTOTXT \
 $MODEL $GPU_ID $BATCH_SIZE 1352000 $TEST_LIST_FILE $BLOB_NAME
 
 wait

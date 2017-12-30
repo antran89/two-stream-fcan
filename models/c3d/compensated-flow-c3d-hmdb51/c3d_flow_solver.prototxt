@@ -1,0 +1,15 @@
+net: "c3d_flow_step2_compensated_train_val.prototxt"
+test_iter: 1000
+test_interval: 500
+base_lr: 0.005
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 12000
+stepvalue: 18000
+display: 20
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "hmdb51_c3d_flow_step2_compensated_bs120_split1_wi1"
+iter_size: 3

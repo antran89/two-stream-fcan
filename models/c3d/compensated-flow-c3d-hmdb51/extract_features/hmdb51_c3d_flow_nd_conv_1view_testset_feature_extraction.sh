@@ -56,9 +56,9 @@ if [ ! -d $FEATURE_FOLDER ]; then
 fi
 
 ln -s $FEATURE_FOLDER $OUT_FOLDER_LINK
-python create_hollywood2_output_folders.py --output_folder=$OUT_FOLDER_LINK
+python create_hmdb51_output_folders.py --output_folder=$OUT_FOLDER_LINK
 
-DATABASE=/media/tranlaman/data/new-caffe-database/hollywood2_comp_tvl1_overlapping_len16_train_test_split1
+DATABASE=/media/tranlaman/data/new-caffe-database/hmdb51_comp_tvl1_overlapping_len16_train_test_split1/
 TRAIN_LIST_FILE=$(printf 'feature_extraction_train_list_prefix_%s.txt' $TIME_STAMP)
 TEST_LIST_FILE=$(printf 'feature_extraction_test_list_prefix_%s.txt' $TIME_STAMP)
 TRAIN_KEY_FILE=$DATABASE/train_flow_lmdb/train_lmdb_keys.txt

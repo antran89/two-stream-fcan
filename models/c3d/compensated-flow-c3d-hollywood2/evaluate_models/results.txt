@@ -1,0 +1,84 @@
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Probability extention: flow_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.414027
+Expriment finished at 2017-03-25 18:22:23.014665 
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Probability extention: flow_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.414027
+Expriment finished at 2017-03-25 18:28:04.674955 
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Probability extention: flow_fc8
+Video accuracy on testset split 1 of Hollywood2 is 0.634615
+Expriment finished at 2017-03-25 18:28:05.814885 
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Probability extention: flow_prob
+Clip accuracy on testset split 1 of HMDB51 is 0.414027
+Expriment finished at 2017-03-25 18:59:33.365851 
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Probability extention: flow_prob
+Video accuracy on testset split 1 of Hollywood2 is 0.634615
+Expriment finished at 2017-03-25 18:59:34.507835 
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Probability extention: flow_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.414027
+Expriment finished at 2017-03-28 12:18:57.433209 
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Probability extention: flow_fc8
+Video accuracy on testset split 1 of Hollywood2 is 0.640271
+Expriment finished at 2017-03-28 12:18:58.173820 
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_comp_flow_bs120_wi2_iter_20000
+Probability extention: flow_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.407376
+Expriment finished at 2017-03-28 12:18:59.213901 
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_comp_flow_bs120_wi2_iter_20000
+Probability extention: flow_fc8
+Video accuracy on testset split 1 of Hollywood2 is 0.611991
+Expriment finished at 2017-03-28 12:18:59.885338 
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Probability extention: flow_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.598975
+Expriment finished at 2017-03-28 15:55:53.543317 
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Probability extention: flow_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.676829
+Expriment finished at 2017-03-28 15:56:38.924794 
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Probability extention: flow_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.676829
+Expriment finished at 2017-08-02 12:18:17.554491 

@@ -1,0 +1,21 @@
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.462384
+Expriment finished at 2017-03-30 10:58:07.398468 
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.462384
+Expriment finished at 2017-03-30 11:09:40.204183 
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_bs64_fi1_iter_10000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.441739
+Expriment finished at 2017-08-03 10:40:32.398758 

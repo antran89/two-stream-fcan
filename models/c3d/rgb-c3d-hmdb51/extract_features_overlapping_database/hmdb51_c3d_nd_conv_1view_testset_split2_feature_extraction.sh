@@ -24,15 +24,15 @@ fi
 export CUDA_VISIBLE_DEVICES=$1
 
 # some parameters for the job
-TOOLS=/home/tranlaman/Desktop/caffe-workspace/my-very-deep-caffe/cmake-build-c3d/tools/
+TOOLS=../../../../lib/my-very-deep-caffe/cmake-build/tools
 MODEL=$2
 GPU_ID=0
 
 # some parameters for the program
-MODEL_PROTOTXT=c3d_flow_bn_all_1view_testset.prototxt
-BLOB_NAME="flow_prob"
+MODEL_PROTOTXT=c3d_rgb_nd_conv_1view_testset_split2.prototxt
+BLOB_NAME="rgb_fc8 rgb_prob"
 TIME_STAMP=$(date +%d.%H%M%S)
-BATCH_SIZE=15
+BATCH_SIZE=50
 FEATURE_FOLDER=$3
 OUT_FOLDER_LINK=$(printf 'out_%s' $TIME_STAMP)
 
@@ -56,13 +56,13 @@ if [ ! -d $FEATURE_FOLDER ]; then
 fi
 
 ln -s $FEATURE_FOLDER $OUT_FOLDER_LINK
-python create_ucf101_output_folders.py --output_folder=$OUT_FOLDER_LINK
+python create_hmdb51_output_folders.py --output_folder=$OUT_FOLDER_LINK
 
-DATABASE=/home/tranlaman/Public/data/new-caffe-database/ucf101_comp_tvl1_overlapping_segment16_train_test_split1/
+DATABASE=/media/tranlaman/055A1379187B92F1/new-caffe-database/hmdb51_rgb_overlapping_len16_train_test_split2
 TRAIN_LIST_FILE=$(printf 'feature_extraction_train_list_prefix_%s.txt' $TIME_STAMP)
 TEST_LIST_FILE=$(printf 'feature_extraction_test_list_prefix_%s.txt' $TIME_STAMP)
-TRAIN_KEY_FILE=$DATABASE/train_flow_lmdb/train_lmdb_keys.txt
-TEST_KEY_FILE=$DATABASE/val_flow_lmdb/test_lmdb_keys.txt
+TRAIN_KEY_FILE=$DATABASE/train_rgb_lmdb/train_lmdb_keys.txt
+TEST_KEY_FILE=$DATABASE/val_rgb_lmdb/test_lmdb_keys.txt
 if [[ ! -f $TRAIN_LIST_FILE || ! -f $TEST_LIST_FILE ]]; then
 	python generate_train_test_prefix_file.py --output_folder=$OUT_FOLDER_LINK --batch_size=$BATCH_SIZE \
 	--train_key_file=$TRAIN_KEY_FILE \

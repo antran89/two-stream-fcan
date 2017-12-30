@@ -1,27 +1,49 @@
-name: "Temporal_C3D_net"
-# ----------- flow data layer --------------------
+name: "C3D_net"
+# ----------- rgb data layer --------------------
 layer {
   name: "data"
   type: "FlowData"
   top: "data"
   top: "label"
   flow_data_param {
-    source: "/home/tranlaman/Public/data/new-caffe-database/ucf101_comp_tvl1_overlapping_segment16_train_test_split1/val_flow_lmdb/"
+    source: "/media/tranlaman/055A1379187B92F1/new-caffe-database/hmdb51_rgb_overlapping_len16_train_test_split3/train_rgb_lmdb/"
     backend: LMDB
-    batch_size: 15
+    batch_size: 20
     new_length: 16
-    modality: FLOW
+    modality: RGB
+  }
+  transform_param {
+    new_height: 128
+    new_width: 171
+    crop_size: 112
+    mirror: true
+    fix_crop: true
+    multi_scale: true
+    max_distort: 1
+    scale_ratios: [1,0.875,0.75,0.66]
+    is_flow: false
+    mean_value: 128
+  }
+  include: { phase: TRAIN }
+}
+layer {
+  name: "data"
+  type: "FlowData"
+  top: "data"
+  top: "label"
+  flow_data_param {
+    source: "/media/tranlaman/055A1379187B92F1/new-caffe-database/hmdb51_rgb_overlapping_len16_train_test_split3/val_rgb_lmdb/"
+    backend: LMDB
+    batch_size: 1
+    new_length: 16
+    modality: RGB
   }
   transform_param {
     new_height: 128
     new_width: 171
     crop_size: 112
     mirror: false
-    fix_crop: false
-    multi_scale: false
-    max_distort: 1
-    scale_ratios: [1,0.875,0.75,0.66]
-    is_flow: true
+    is_flow: false
     mean_value: 128
   }
   include: { phase: TEST }
@@ -32,14 +54,14 @@ layer {
   type: "Reshape"
   bottom: "data"
   top: "vol_data"
-  reshape_param { shape { dim: 2 dim: -1 }  axis: 1  num_axes: 1 }
+  reshape_param { shape { dim: 3 dim: -1 }  axis: 1  num_axes: 1 }
 }
 # ----------- 1st layer group ---------------
 layer {
-  name: "flow_conv1a"
+  name: "rgb_conv1a"
   type: "Convolution"
   bottom: "vol_data"
-  top: "flow_conv1a"
+  top: "rgb_conv1a"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -65,46 +87,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn1a"
-  type: "BatchNorm"
-  bottom: "flow_conv1a"
-  top: "flow_conv1a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale1a"
-  type: "Scale"
-  bottom: "flow_conv1a"
-  top: "flow_conv1a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu1a"
+  name: "rgb_relu1a"
   type: "ReLU"
-  bottom: "flow_conv1a"
-  top: "flow_conv1a"
+  bottom: "rgb_conv1a"
+  top: "rgb_conv1a"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_pool1"
+  name: "rgb_pool1"
   type: "Pooling3D"
-  bottom: "flow_conv1a"
-  top: "flow_pool1"
+  bottom: "rgb_conv1a"
+  top: "rgb_pool1"
   pooling3d_param {
     pool: MAX
     kernel_size: 2
@@ -115,10 +110,10 @@ layer {
 }
 # ------------- 2nd layer group --------------
 layer {
-  name: "flow_conv2a"
+  name: "rgb_conv2a"
   type: "Convolution"
-  bottom: "flow_pool1"
-  top: "flow_conv2a"
+  bottom: "rgb_pool1"
+  top: "rgb_conv2a"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -144,46 +139,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn2a"
-  type: "BatchNorm"
-  bottom: "flow_conv2a"
-  top: "flow_conv2a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale2a"
-  type: "Scale"
-  bottom: "flow_conv2a"
-  top: "flow_conv2a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu2a"
+  name: "rgb_relu2a"
   type: "ReLU"
-  bottom: "flow_conv2a"
-  top: "flow_conv2a"
+  bottom: "rgb_conv2a"
+  top: "rgb_conv2a"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_pool2"
+  name: "rgb_pool2"
   type: "Pooling3D"
-  bottom: "flow_conv2a"
-  top: "flow_pool2"
+  bottom: "rgb_conv2a"
+  top: "rgb_pool2"
   pooling3d_param {
     pool: MAX
     kernel_size: 2
@@ -194,10 +162,10 @@ layer {
 }
 # ----------------- 3rd layer group --------------
 layer {
-  name: "flow_conv3a"
+  name: "rgb_conv3a"
   type: "Convolution"
-  bottom: "flow_pool2"
-  top: "flow_conv3a"
+  bottom: "rgb_pool2"
+  top: "rgb_conv3a"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -223,46 +191,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn3a"
-  type: "BatchNorm"
-  bottom: "flow_conv3a"
-  top: "flow_conv3a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale3a"
-  type: "Scale"
-  bottom: "flow_conv3a"
-  top: "flow_conv3a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu3a"
+  name: "rgb_relu3a"
   type: "ReLU"
-  bottom: "flow_conv3a"
-  top: "flow_conv3a"
+  bottom: "rgb_conv3a"
+  top: "rgb_conv3a"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_conv3b"
+  name: "rgb_conv3b"
   type: "Convolution"
-  bottom: "flow_conv3a"
-  top: "flow_conv3b"
+  bottom: "rgb_conv3a"
+  top: "rgb_conv3b"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -288,46 +229,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn3b"
-  type: "BatchNorm"
-  bottom: "flow_conv3b"
-  top: "flow_conv3b"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale3b"
-  type: "Scale"
-  bottom: "flow_conv3b"
-  top: "flow_conv3b"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu3b"
+  name: "rgb_relu3b"
   type: "ReLU"
-  bottom: "flow_conv3b"
-  top: "flow_conv3b"
+  bottom: "rgb_conv3b"
+  top: "rgb_conv3b"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_pool3"
+  name: "rgb_pool3"
   type: "Pooling3D"
-  bottom: "flow_conv3b"
-  top: "flow_pool3"
+  bottom: "rgb_conv3b"
+  top: "rgb_pool3"
   pooling3d_param {
     pool: MAX
     kernel_size: 2
@@ -339,10 +253,10 @@ layer {
 
 # --------- 4th layer group
 layer {
-  name: "flow_conv4a"
+  name: "rgb_conv4a"
   type: "Convolution"
-  bottom: "flow_pool3"
-  top: "flow_conv4a"
+  bottom: "rgb_pool3"
+  top: "rgb_conv4a"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -368,46 +282,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn4a"
-  type: "BatchNorm"
-  bottom: "flow_conv4a"
-  top: "flow_conv4a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale4a"
-  type: "Scale"
-  bottom: "flow_conv4a"
-  top: "flow_conv4a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu4a"
+  name: "rgb_relu4a"
   type: "ReLU"
-  bottom: "flow_conv4a"
-  top: "flow_conv4a"
+  bottom: "rgb_conv4a"
+  top: "rgb_conv4a"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_conv4b"
+  name: "rgb_conv4b"
   type: "Convolution"
-  bottom: "flow_conv4a"
-  top: "flow_conv4b"
+  bottom: "rgb_conv4a"
+  top: "rgb_conv4b"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -433,46 +320,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn4b"
-  type: "BatchNorm"
-  bottom: "flow_conv4b"
-  top: "flow_conv4b"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale4b"
-  type: "Scale"
-  bottom: "flow_conv4b"
-  top: "flow_conv4b"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu4b"
+  name: "rgb_relu4b"
   type: "ReLU"
-  bottom: "flow_conv4b"
-  top: "flow_conv4b"
+  bottom: "rgb_conv4b"
+  top: "rgb_conv4b"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_pool4"
+  name: "rgb_pool4"
   type: "Pooling3D"
-  bottom: "flow_conv4b"
-  top: "flow_pool4"
+  bottom: "rgb_conv4b"
+  top: "rgb_pool4"
   pooling3d_param {
     pool: MAX
     kernel_size: 2
@@ -484,10 +344,10 @@ layer {
 
 # --------------- 5th layer group --------
 layer {
-  name: "flow_conv5a"
+  name: "rgb_conv5a"
   type: "Convolution"
-  bottom: "flow_pool4"
-  top: "flow_conv5a"
+  bottom: "rgb_pool4"
+  top: "rgb_conv5a"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -513,46 +373,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn5a"
-  type: "BatchNorm"
-  bottom: "flow_conv5a"
-  top: "flow_conv5a"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale5a"
-  type: "Scale"
-  bottom: "flow_conv5a"
-  top: "flow_conv5a"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu5a"
+  name: "rgb_relu5a"
   type: "ReLU"
-  bottom: "flow_conv5a"
-  top: "flow_conv5a"
+  bottom: "rgb_conv5a"
+  top: "rgb_conv5a"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_conv5b"
+  name: "rgb_conv5b"
   type: "Convolution"
-  bottom: "flow_conv5a"
-  top: "flow_conv5b"
+  bottom: "rgb_conv5a"
+  top: "rgb_conv5b"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -578,46 +411,19 @@ layer {
   }
 }
 layer {
-  name: "flow_bn5b"
-  type: "BatchNorm"
-  bottom: "flow_conv5b"
-  top: "flow_conv5b"
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-  param {
-    lr_mult: 0
-    decay_mult: 0
-  }
-}
-layer {
-  name: "flow_scale5b"
-  type: "Scale"
-  bottom: "flow_conv5b"
-  top: "flow_conv5b"
-  scale_param {
-    bias_term: true
-  }
-}
-layer {
-  name: "flow_relu5b"
+  name: "rgb_relu5b"
   type: "ReLU"
-  bottom: "flow_conv5b"
-  top: "flow_conv5b"
+  bottom: "rgb_conv5b"
+  top: "rgb_conv5b"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_pool5"
+  name: "rgb_pool5"
   type: "Pooling3D"
-  bottom: "flow_conv5b"
-  top: "flow_pool5"
+  bottom: "rgb_conv5b"
+  top: "rgb_pool5"
   pooling3d_param {
     pool: MAX
     kernel_size: 2
@@ -628,10 +434,10 @@ layer {
 }
 # ---------------- fc layers -------------
 layer {
-  name: "flow_fc6"
+  name: "rgb_fc6"
   type: "InnerProduct"
-  bottom: "flow_pool5"
-  top: "flow_fc6"
+  bottom: "rgb_pool5"
+  top: "rgb_fc6"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -653,28 +459,28 @@ layer {
   }
 }
 layer {
-  name: "flow_relu6"
+  name: "rgb_relu6"
   type: "ReLU"
-  bottom: "flow_fc6"
-  top: "flow_fc6"
+  bottom: "rgb_fc6"
+  top: "rgb_fc6"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_drop6"
+  name: "rgb_drop6"
   type: "Dropout"
-  bottom: "flow_fc6"
-  top: "flow_fc6"
+  bottom: "rgb_fc6"
+  top: "rgb_fc6"
   dropout_param {
     dropout_ratio: 0.9
   }
 }
 layer {
-  name: "flow_fc7"
+  name: "rgb_fc7"
   type: "InnerProduct"
-  bottom: "flow_fc6"
-  top: "flow_fc7"
+  bottom: "rgb_fc6"
+  top: "rgb_fc7"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -696,28 +502,28 @@ layer {
   }
 }
 layer {
-  name: "flow_relu7"
+  name: "rgb_relu7"
   type: "ReLU"
-  bottom: "flow_fc7"
-  top: "flow_fc7"
+  bottom: "rgb_fc7"
+  top: "rgb_fc7"
   relu_param {
     engine: CAFFE
   }
 }
 layer {
-  name: "flow_drop7"
+  name: "rgb_drop7"
   type: "Dropout"
-  bottom: "flow_fc7"
-  top: "flow_fc7"
+  bottom: "rgb_fc7"
+  top: "rgb_fc7"
   dropout_param {
     dropout_ratio: 0.8
   }
 }
 layer {
-  name: "flow_fc8"
+  name: "rgb_fc8"
   type: "InnerProduct"
-  bottom: "flow_fc7"
-  top: "flow_fc8"
+  bottom: "rgb_fc7"
+  top: "rgb_fc8"
   param {
     lr_mult: 1
     decay_mult: 1
@@ -727,7 +533,7 @@ layer {
     decay_mult: 0
   }
   inner_product_param {
-    num_output: 101
+    num_output: 51
     weight_filler {
       type: "gaussian"
       std: 0.01
@@ -739,8 +545,19 @@ layer {
   }
 }
 layer {
-  name: "flow_prob"
-  type: "Softmax"
-  bottom: "flow_fc8"
-  top: "flow_prob"
+  name: "accuracy"
+  type: "Accuracy"
+  bottom: "rgb_fc8"
+  bottom: "label"
+  top: "accuracy"
+  include {
+    phase: TEST
+  }
+}
+layer {
+  name: "loss"
+  type: "SoftmaxWithLoss"
+  bottom: "rgb_fc8"
+  bottom: "label"
+  top: "loss"
 }

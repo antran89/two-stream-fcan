@@ -1,0 +1,1 @@
+/home/tranlaman/Desktop/caffe-workspace/very-deep-two-stream-conv/models/c3d/rgb-c3d-hollywood2/extract_features/create_hollywood2_output_folders.py

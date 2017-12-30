@@ -24,7 +24,7 @@ fi
 export CUDA_VISIBLE_DEVICES=$1
 
 # some parameters for the job
-TOOLS=/home/tranlaman/Desktop/caffe-workspace/my-very-deep-caffe/cmake-build-c3d/tools/
+TOOLS=../../../../lib/my-very-deep-caffe/cmake-build/tools
 MODEL=$2
 GPU_ID=0
 
@@ -58,7 +58,7 @@ fi
 ln -s $FEATURE_FOLDER $OUT_FOLDER_LINK
 python create_ucf101_output_folders.py --output_folder=$OUT_FOLDER_LINK
 
-DATABASE=/home/tranlaman/Public/data/new-caffe-database/ucf101_comp_tvl1_overlapping_segment16_train_test_split1/
+DATABASE=/home/tranlaman/Public/data/new-caffe-database/ucf101_comp_tvl1_overlapping_segment16_train_test_split1
 TRAIN_LIST_FILE=$(printf 'feature_extraction_train_list_prefix_%s.txt' $TIME_STAMP)
 TEST_LIST_FILE=$(printf 'feature_extraction_test_list_prefix_%s.txt' $TIME_STAMP)
 TRAIN_KEY_FILE=$DATABASE/train_flow_lmdb/train_lmdb_keys.txt
