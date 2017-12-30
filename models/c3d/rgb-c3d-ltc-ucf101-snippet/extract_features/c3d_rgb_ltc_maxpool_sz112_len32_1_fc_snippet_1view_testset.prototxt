@@ -1,0 +1,488 @@
+name: "C3D_net"
+# ----------- rgb data layer --------------------
+layer {
+  name: "data"
+  type: "VideoSnippetData"
+  top: "data"
+  top: "label"
+  video_snippet_data_param {
+    source: "../ucf101_val_rgb_len32_split01.txt"
+    batch_size: 20
+    new_length: 32
+    modality: RGB
+    preserve_temporal: true
+  }
+  transform_param {
+    new_height: 128
+    new_width: 171
+    crop_size: 112
+    mirror: false
+    fix_crop: false
+    multi_scale: false
+    max_distort: 1
+    scale_ratios: [1,0.875,0.75,0.66]
+    is_flow: false
+    mean_value: 128
+  }
+  include: { phase: TEST }
+}
+
+# ------------ reshape data layer ------------
+layer {
+  name: "reshape"
+  type: "Reshape"
+  bottom: "data"
+  top: "vol_data"
+  reshape_param { shape { dim: 3 dim: -1 }  axis: 1  num_axes: 1 }
+}
+# ----------- 1st layer group ---------------
+layer {
+  name: "rgb_conv1a"
+  type: "Convolution"
+  bottom: "vol_data"
+  top: "rgb_conv1a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 64
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "rgb_relu1a"
+  type: "ReLU"
+  bottom: "rgb_conv1a"
+  top: "rgb_conv1a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_pool1"
+  type: "Pooling3D"
+  bottom: "rgb_conv1a"
+  top: "rgb_pool1"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 1
+    stride: 2
+    temporal_stride: 1
+  }
+}
+# ------------- 2nd layer group --------------
+layer {
+  name: "rgb_conv2a"
+  type: "Convolution"
+  bottom: "rgb_pool1"
+  top: "rgb_conv2a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 128
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu2a"
+  type: "ReLU"
+  bottom: "rgb_conv2a"
+  top: "rgb_conv2a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_pool2"
+  type: "Pooling3D"
+  bottom: "rgb_conv2a"
+  top: "rgb_pool2"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 2
+    stride: 2
+    temporal_stride: 2
+  }
+}
+# ----------------- 3rd layer group --------------
+layer {
+  name: "rgb_conv3a"
+  type: "Convolution"
+  bottom: "rgb_pool2"
+  top: "rgb_conv3a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 256
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu3a"
+  type: "ReLU"
+  bottom: "rgb_conv3a"
+  top: "rgb_conv3a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_conv3b"
+  type: "Convolution"
+  bottom: "rgb_conv3a"
+  top: "rgb_conv3b"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 256
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu3b"
+  type: "ReLU"
+  bottom: "rgb_conv3b"
+  top: "rgb_conv3b"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_pool3"
+  type: "Pooling3D"
+  bottom: "rgb_conv3b"
+  top: "rgb_pool3"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 2
+    stride: 2
+    temporal_stride: 2
+  }
+}
+
+# --------- 4th layer group
+layer {
+  name: "rgb_conv4a"
+  type: "Convolution"
+  bottom: "rgb_pool3"
+  top: "rgb_conv4a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 512
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu4a"
+  type: "ReLU"
+  bottom: "rgb_conv4a"
+  top: "rgb_conv4a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_conv4b"
+  type: "Convolution"
+  bottom: "rgb_conv4a"
+  top: "rgb_conv4b"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 512
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu4b"
+  type: "ReLU"
+  bottom: "rgb_conv4b"
+  top: "rgb_conv4b"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_pool4"
+  type: "Pooling3D"
+  bottom: "rgb_conv4b"
+  top: "rgb_pool4"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 2
+    stride: 2
+    temporal_stride: 2
+  }
+}
+
+# --------------- 5th layer group --------
+layer {
+  name: "rgb_conv5a"
+  type: "Convolution"
+  bottom: "rgb_pool4"
+  top: "rgb_conv5a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 512
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu5a"
+  type: "ReLU"
+  bottom: "rgb_conv5a"
+  top: "rgb_conv5a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_conv5b"
+  type: "Convolution"
+  bottom: "rgb_conv5a"
+  top: "rgb_conv5b"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 512
+    kernel_size: 3
+    pad: 1
+    axis: 1
+    engine: CAFFE
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu5b"
+  type: "ReLU"
+  bottom: "rgb_conv5b"
+  top: "rgb_conv5b"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_pool5"
+  type: "Pooling3D"
+  bottom: "rgb_conv5b"
+  top: "rgb_pool5"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 4
+    stride: 2
+    temporal_stride: 2
+  }
+}
+# ---------------- fc layers -------------
+layer {
+  name: "rgb_fc6"
+  type: "InnerProduct"
+  bottom: "rgb_pool5"
+  top: "rgb_fc6"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  inner_product_param {
+    num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.005
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "rgb_relu6"
+  type: "ReLU"
+  bottom: "rgb_fc6"
+  top: "rgb_fc6"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "rgb_drop6"
+  type: "Dropout"
+  bottom: "rgb_fc6"
+  top: "rgb_fc6"
+  dropout_param {
+    dropout_ratio: 0.9
+  }
+}
+layer {
+  name: "rgb_fc8"
+  type: "InnerProduct"
+  bottom: "rgb_fc6"
+  top: "rgb_fc8"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  inner_product_param {
+    num_output: 101
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "rgb_prob"
+  type: "Softmax"
+  bottom: "rgb_fc8"
+  top: "rgb_prob"
+}

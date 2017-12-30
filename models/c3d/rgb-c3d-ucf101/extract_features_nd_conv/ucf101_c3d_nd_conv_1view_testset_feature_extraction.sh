@@ -24,7 +24,7 @@ fi
 export CUDA_VISIBLE_DEVICES=$1
 
 # some parameters for the job
-TOOLS=../../../../lib/my-very-deep-caffe/cmake-build
+TOOLS=../../../../lib/my-very-deep-caffe/cmake-build/tools
 MODEL=$2
 GPU_ID=0
 
