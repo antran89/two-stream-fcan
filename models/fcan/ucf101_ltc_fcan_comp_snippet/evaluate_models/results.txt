@@ -1,0 +1,112 @@
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of UCF101 is 0.819350
+Expriment finished at 2017-06-03 00:12:31.951656 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of UCF101 is 0.843246
+Expriment finished at 2017-06-03 00:12:34.769815 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of UCF101 is 0.778784
+Expriment finished at 2017-07-07 13:35:21.007193 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of UCF101 is 0.814169
+Expriment finished at 2017-07-07 13:35:23.783328 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of UCF101 is 0.795975
+Expriment finished at 2017-07-12 16:15:48.837415 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of UCF101 is 0.829236
+Expriment finished at 2017-07-12 16:15:51.556551 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of UCF101 is 0.812248
+Expriment finished at 2017-07-27 18:33:58.279778 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of UCF101 is 0.853240
+Expriment finished at 2017-07-27 18:34:01.058476 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi2_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of UCF101 is 0.811251
+Expriment finished at 2017-07-30 12:25:18.059122 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 2 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi2_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of UCF101 is 0.851634
+Expriment finished at 2017-07-30 12:25:21.302632 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 3 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split3_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 3 of UCF101 is 0.821173
+Expriment finished at 2017-07-30 12:40:29.271175 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 3 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split3_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 3 of UCF101 is 0.863095
+Expriment finished at 2017-07-30 12:40:32.048972 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of UCF101 is 0.819911
+Expriment finished at 2017-07-31 17:37:15.810875 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of UCF101 is 0.856727
+Expriment finished at 2017-07-31 17:37:18.799513 
+
+--------------------------------------------------
+Compute clip accuracy of UCF101 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of UCF101 is 0.753933
+Expriment finished at 2017-08-01 23:09:01.717842 
+
+--------------------------------------------------
+Compute video accuracy of UCF101 split 1 dataset.
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of UCF101 is 0.800687
+Expriment finished at 2017-08-01 23:09:04.705989 

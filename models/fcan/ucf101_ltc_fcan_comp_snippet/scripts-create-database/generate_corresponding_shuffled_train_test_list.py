@@ -1,0 +1,1 @@
+/home/tranlaman/Desktop/caffe-workspace/very-deep-two-stream-conv/caffe_utility_scripts/script_create_databases/ucf101_overlappingsnippet_database/generate_corresponding_shuffled_train_test_list.py
