@@ -1,0 +1,252 @@
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.023005
+Expriment finished at 2017-06-03 11:36:26.949292 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.020261
+Expriment finished at 2017-06-03 11:36:27.801656 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.607920
+Expriment finished at 2017-06-03 12:22:11.540235 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.537908
+Expriment finished at 2017-06-03 12:22:12.348558 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.511181
+Expriment finished at 2017-07-12 15:24:07.951419 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.513725
+Expriment finished at 2017-07-12 15:24:08.960606 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.495247
+Expriment finished at 2017-07-12 15:24:10.199235 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.488889
+Expriment finished at 2017-07-12 15:24:11.269955 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.535007
+Expriment finished at 2017-07-14 12:24:12.217235 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.541830
+Expriment finished at 2017-07-14 12:24:13.285226 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.582994
+Expriment finished at 2017-07-15 13:52:06.275307 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.528758
+Expriment finished at 2017-07-15 13:52:07.302093 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_ti1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.483117
+Expriment finished at 2017-07-23 14:48:05.515791 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_ti1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.511111
+Expriment finished at 2017-07-23 14:48:06.716102 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.489945
+Expriment finished at 2017-07-25 12:29:59.188291 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.515686
+Expriment finished at 2017-07-25 12:30:00.327110 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.529925
+Expriment finished at 2017-07-25 14:31:23.777685 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.562092
+Expriment finished at 2017-07-25 14:31:24.844340 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.535179
+Expriment finished at 2017-07-26 11:10:32.917305 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.579085
+Expriment finished at 2017-07-26 11:10:34.217231 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.535312
+Expriment finished at 2017-07-27 11:28:15.966426 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.569281
+Expriment finished at 2017-07-27 11:28:17.126382 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi01_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of HMDB51 is 0.467089
+Expriment finished at 2017-07-27 16:56:36.681333 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi01_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of HMDB51 is 0.492157
+Expriment finished at 2017-07-27 16:56:37.663710 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi01_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 3 of HMDB51 is 0.456434
+Expriment finished at 2017-07-28 14:31:09.598358 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi01_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 3 of HMDB51 is 0.489542
+Expriment finished at 2017-07-28 14:31:10.844163 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of HMDB51 is 0.514792
+Expriment finished at 2017-07-28 15:58:46.901615 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of HMDB51 is 0.547059
+Expriment finished at 2017-07-28 15:58:48.102514 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 3 of HMDB51 is 0.502719
+Expriment finished at 2017-07-30 13:33:06.273662 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 3 of HMDB51 is 0.543791
+Expriment finished at 2017-07-30 13:33:07.415879 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of HMDB51 is 0.514792
+Expriment finished at 2017-07-30 14:43:39.751521 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of HMDB51 is 0.547059
+Expriment finished at 2017-07-30 14:43:41.220971 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.530725
+Expriment finished at 2017-07-30 14:50:12.551797 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.566013
+Expriment finished at 2017-07-30 14:50:13.666326 
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.491092
+Expriment finished at 2017-08-01 22:10:54.780299 
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.542484
+Expriment finished at 2017-08-01 22:10:56.144722 

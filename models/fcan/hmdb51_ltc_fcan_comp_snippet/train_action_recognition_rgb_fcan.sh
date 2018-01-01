@@ -6,9 +6,10 @@ start=$(date +%s)
 
 $INSTALL/caffe train \
 --solver=c3d_rgb_solver.prototxt \
---gpu=1 \
---weights=pre-trained-models/conv3d_deepnetA_sport1m_iter_1900000_newcaffe_format_rgb_prefix.caffemodel
-	
+--gpu=1,2 \
+--weights=pre-trained-models/conv3d_deepnetA_sport1m_iter_1900000_newcaffe_format_rgb_prefix.caffemodel,\
+pre-trained-models/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000.caffemodel
+
 echo "Done~!"
 
 end=$(date +%s)

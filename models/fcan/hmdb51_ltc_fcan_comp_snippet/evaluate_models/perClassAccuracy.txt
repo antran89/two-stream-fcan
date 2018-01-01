@@ -1,0 +1,2124 @@
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.023005
+Expriment finished at 2017-06-03 11:36:26.949292 
+Per class accuracy
+Class 0: ... 0.03
+Class 1: ... 0.02
+Class 2: ... 0.00
+Class 3: ... 0.03
+Class 4: ... 0.03
+Class 5: ... 0.03
+Class 6: ... 0.03
+Class 7: ... 0.01
+Class 8: ... 0.02
+Class 9: ... 0.02
+Class 10: ... 0.01
+Class 11: ... 0.02
+Class 12: ... 0.01
+Class 13: ... 0.02
+Class 14: ... 0.01
+Class 15: ... 0.03
+Class 16: ... 0.02
+Class 17: ... 0.00
+Class 18: ... 0.02
+Class 19: ... 0.01
+Class 20: ... 0.00
+Class 21: ... 0.00
+Class 22: ... 0.04
+Class 23: ... 0.02
+Class 24: ... 0.03
+Class 25: ... 0.02
+Class 26: ... 0.02
+Class 27: ... 0.02
+Class 28: ... 0.04
+Class 29: ... 0.03
+Class 30: ... 0.02
+Class 31: ... 0.02
+Class 32: ... 0.02
+Class 33: ... 0.03
+Class 34: ... 0.03
+Class 35: ... 0.03
+Class 36: ... 0.03
+Class 37: ... 0.02
+Class 38: ... 0.03
+Class 39: ... 0.01
+Class 40: ... 0.03
+Class 41: ... 0.02
+Class 42: ... 0.02
+Class 43: ... 0.03
+Class 44: ... 0.02
+Class 45: ... 0.01
+Class 46: ... 0.04
+Class 47: ... 0.01
+Class 48: ... 0.01
+Class 49: ... 0.02
+Class 50: ... 0.01
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.020261
+Expriment finished at 2017-06-03 11:36:27.801656 
+Per class accuracy
+Class 0: ... 0.00
+Class 1: ... 0.00
+Class 2: ... 0.00
+Class 3: ... 0.03
+Class 4: ... 0.03
+Class 5: ... 0.00
+Class 6: ... 0.03
+Class 7: ... 0.03
+Class 8: ... 0.00
+Class 9: ... 0.00
+Class 10: ... 0.00
+Class 11: ... 0.00
+Class 12: ... 0.00
+Class 13: ... 0.00
+Class 14: ... 0.00
+Class 15: ... 0.00
+Class 16: ... 0.10
+Class 17: ... 0.00
+Class 18: ... 0.03
+Class 19: ... 0.00
+Class 20: ... 0.00
+Class 21: ... 0.00
+Class 22: ... 0.00
+Class 23: ... 0.00
+Class 24: ... 0.47
+Class 25: ... 0.00
+Class 26: ... 0.00
+Class 27: ... 0.00
+Class 28: ... 0.03
+Class 29: ... 0.03
+Class 30: ... 0.00
+Class 31: ... 0.00
+Class 32: ... 0.03
+Class 33: ... 0.00
+Class 34: ... 0.00
+Class 35: ... 0.10
+Class 36: ... 0.03
+Class 37: ... 0.00
+Class 38: ... 0.03
+Class 39: ... 0.00
+Class 40: ... 0.00
+Class 41: ... 0.00
+Class 42: ... 0.00
+Class 43: ... 0.00
+Class 44: ... 0.03
+Class 45: ... 0.00
+Class 46: ... 0.00
+Class 47: ... 0.00
+Class 48: ... 0.00
+Class 49: ... 0.00
+Class 50: ... 0.00
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.607920
+Expriment finished at 2017-06-03 12:22:11.540235 
+Per class accuracy
+Class 0: ... 0.64
+Class 1: ... 0.62
+Class 2: ... 0.47
+Class 3: ... 0.69
+Class 4: ... 0.39
+Class 5: ... 0.73
+Class 6: ... 0.44
+Class 7: ... 0.65
+Class 8: ... 0.42
+Class 9: ... 0.81
+Class 10: ... 0.44
+Class 11: ... 0.43
+Class 12: ... 0.18
+Class 13: ... 0.53
+Class 14: ... 0.71
+Class 15: ... 1.00
+Class 16: ... 0.66
+Class 17: ... 0.01
+Class 18: ... 0.69
+Class 19: ... 0.02
+Class 20: ... 0.02
+Class 21: ... 0.43
+Class 22: ... 0.78
+Class 23: ... 0.64
+Class 24: ... 0.28
+Class 25: ... 0.78
+Class 26: ... 0.97
+Class 27: ... 0.53
+Class 28: ... 0.86
+Class 29: ... 0.78
+Class 30: ... 0.99
+Class 31: ... 0.91
+Class 32: ... 0.60
+Class 33: ... 0.65
+Class 34: ... 0.80
+Class 35: ... 0.93
+Class 36: ... 0.62
+Class 37: ... 0.33
+Class 38: ... 0.75
+Class 39: ... 0.16
+Class 40: ... 0.45
+Class 41: ... 0.84
+Class 42: ... 0.24
+Class 43: ... 0.40
+Class 44: ... 0.41
+Class 45: ... 0.19
+Class 46: ... 0.62
+Class 47: ... 0.01
+Class 48: ... 0.41
+Class 49: ... 0.59
+Class 50: ... 0.05
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.537908
+Expriment finished at 2017-06-03 12:22:12.348558 
+Per class accuracy
+Class 0: ... 0.70
+Class 1: ... 0.57
+Class 2: ... 0.47
+Class 3: ... 0.63
+Class 4: ... 0.40
+Class 5: ... 0.73
+Class 6: ... 0.50
+Class 7: ... 0.63
+Class 8: ... 0.33
+Class 9: ... 0.80
+Class 10: ... 0.43
+Class 11: ... 0.40
+Class 12: ... 0.30
+Class 13: ... 0.47
+Class 14: ... 0.80
+Class 15: ... 1.00
+Class 16: ... 0.67
+Class 17: ... 0.03
+Class 18: ... 0.73
+Class 19: ... 0.07
+Class 20: ... 0.03
+Class 21: ... 0.43
+Class 22: ... 0.83
+Class 23: ... 0.63
+Class 24: ... 0.20
+Class 25: ... 0.80
+Class 26: ... 0.97
+Class 27: ... 0.43
+Class 28: ... 0.83
+Class 29: ... 0.80
+Class 30: ... 1.00
+Class 31: ... 0.90
+Class 32: ... 0.57
+Class 33: ... 0.70
+Class 34: ... 0.83
+Class 35: ... 0.83
+Class 36: ... 0.50
+Class 37: ... 0.40
+Class 38: ... 0.77
+Class 39: ... 0.13
+Class 40: ... 0.40
+Class 41: ... 0.77
+Class 42: ... 0.33
+Class 43: ... 0.23
+Class 44: ... 0.37
+Class 45: ... 0.27
+Class 46: ... 0.70
+Class 47: ... 0.00
+Class 48: ... 0.40
+Class 49: ... 0.57
+Class 50: ... 0.13
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.511181
+Expriment finished at 2017-07-12 15:24:07.951419 
+Per class accuracy
+Class 0: ... 0.44
+Class 1: ... 0.34
+Class 2: ... 0.54
+Class 3: ... 0.44
+Class 4: ... 0.36
+Class 5: ... 0.63
+Class 6: ... 0.42
+Class 7: ... 0.49
+Class 8: ... 0.25
+Class 9: ... 0.78
+Class 10: ... 0.32
+Class 11: ... 0.33
+Class 12: ... 0.30
+Class 13: ... 0.46
+Class 14: ... 0.68
+Class 15: ... 0.93
+Class 16: ... 0.52
+Class 17: ... 0.03
+Class 18: ... 0.77
+Class 19: ... 0.53
+Class 20: ... 0.26
+Class 21: ... 0.42
+Class 22: ... 0.75
+Class 23: ... 0.45
+Class 24: ... 0.25
+Class 25: ... 0.77
+Class 26: ... 0.91
+Class 27: ... 0.60
+Class 28: ... 0.72
+Class 29: ... 0.88
+Class 30: ... 0.90
+Class 31: ... 0.77
+Class 32: ... 0.35
+Class 33: ... 0.67
+Class 34: ... 0.60
+Class 35: ... 0.88
+Class 36: ... 0.60
+Class 37: ... 0.35
+Class 38: ... 0.87
+Class 39: ... 0.28
+Class 40: ... 0.21
+Class 41: ... 0.72
+Class 42: ... 0.34
+Class 43: ... 0.16
+Class 44: ... 0.34
+Class 45: ... 0.08
+Class 46: ... 0.58
+Class 47: ... 0.01
+Class 48: ... 0.32
+Class 49: ... 0.40
+Class 50: ... 0.22
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.513725
+Expriment finished at 2017-07-12 15:24:08.960606 
+Per class accuracy
+Class 0: ... 0.47
+Class 1: ... 0.37
+Class 2: ... 0.47
+Class 3: ... 0.43
+Class 4: ... 0.43
+Class 5: ... 0.67
+Class 6: ... 0.47
+Class 7: ... 0.63
+Class 8: ... 0.27
+Class 9: ... 0.83
+Class 10: ... 0.43
+Class 11: ... 0.37
+Class 12: ... 0.30
+Class 13: ... 0.43
+Class 14: ... 0.73
+Class 15: ... 0.93
+Class 16: ... 0.57
+Class 17: ... 0.07
+Class 18: ... 0.80
+Class 19: ... 0.50
+Class 20: ... 0.27
+Class 21: ... 0.43
+Class 22: ... 0.80
+Class 23: ... 0.43
+Class 24: ... 0.23
+Class 25: ... 0.80
+Class 26: ... 0.90
+Class 27: ... 0.60
+Class 28: ... 0.77
+Class 29: ... 0.90
+Class 30: ... 0.90
+Class 31: ... 0.83
+Class 32: ... 0.40
+Class 33: ... 0.70
+Class 34: ... 0.63
+Class 35: ... 0.90
+Class 36: ... 0.60
+Class 37: ... 0.43
+Class 38: ... 0.87
+Class 39: ... 0.27
+Class 40: ... 0.20
+Class 41: ... 0.73
+Class 42: ... 0.33
+Class 43: ... 0.13
+Class 44: ... 0.37
+Class 45: ... 0.07
+Class 46: ... 0.57
+Class 47: ... 0.00
+Class 48: ... 0.33
+Class 49: ... 0.43
+Class 50: ... 0.20
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.495247
+Expriment finished at 2017-07-12 15:24:10.199235 
+Per class accuracy
+Class 0: ... 0.43
+Class 1: ... 0.27
+Class 2: ... 0.52
+Class 3: ... 0.45
+Class 4: ... 0.38
+Class 5: ... 0.63
+Class 6: ... 0.42
+Class 7: ... 0.48
+Class 8: ... 0.30
+Class 9: ... 0.75
+Class 10: ... 0.21
+Class 11: ... 0.31
+Class 12: ... 0.30
+Class 13: ... 0.53
+Class 14: ... 0.73
+Class 15: ... 0.93
+Class 16: ... 0.48
+Class 17: ... 0.04
+Class 18: ... 0.76
+Class 19: ... 0.47
+Class 20: ... 0.28
+Class 21: ... 0.41
+Class 22: ... 0.72
+Class 23: ... 0.51
+Class 24: ... 0.22
+Class 25: ... 0.74
+Class 26: ... 0.91
+Class 27: ... 0.54
+Class 28: ... 0.72
+Class 29: ... 0.84
+Class 30: ... 0.95
+Class 31: ... 0.79
+Class 32: ... 0.32
+Class 33: ... 0.64
+Class 34: ... 0.58
+Class 35: ... 0.90
+Class 36: ... 0.57
+Class 37: ... 0.34
+Class 38: ... 0.80
+Class 39: ... 0.31
+Class 40: ... 0.20
+Class 41: ... 0.69
+Class 42: ... 0.19
+Class 43: ... 0.13
+Class 44: ... 0.22
+Class 45: ... 0.12
+Class 46: ... 0.52
+Class 47: ... 0.06
+Class 48: ... 0.35
+Class 49: ... 0.40
+Class 50: ... 0.14
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.488889
+Expriment finished at 2017-07-12 15:24:11.269955 
+Per class accuracy
+Class 0: ... 0.47
+Class 1: ... 0.30
+Class 2: ... 0.43
+Class 3: ... 0.40
+Class 4: ... 0.47
+Class 5: ... 0.67
+Class 6: ... 0.43
+Class 7: ... 0.57
+Class 8: ... 0.27
+Class 9: ... 0.80
+Class 10: ... 0.20
+Class 11: ... 0.27
+Class 12: ... 0.33
+Class 13: ... 0.53
+Class 14: ... 0.77
+Class 15: ... 0.93
+Class 16: ... 0.47
+Class 17: ... 0.07
+Class 18: ... 0.73
+Class 19: ... 0.43
+Class 20: ... 0.27
+Class 21: ... 0.43
+Class 22: ... 0.70
+Class 23: ... 0.50
+Class 24: ... 0.20
+Class 25: ... 0.77
+Class 26: ... 0.93
+Class 27: ... 0.53
+Class 28: ... 0.73
+Class 29: ... 0.87
+Class 30: ... 0.97
+Class 31: ... 0.83
+Class 32: ... 0.33
+Class 33: ... 0.67
+Class 34: ... 0.60
+Class 35: ... 0.93
+Class 36: ... 0.50
+Class 37: ... 0.33
+Class 38: ... 0.77
+Class 39: ... 0.40
+Class 40: ... 0.13
+Class 41: ... 0.73
+Class 42: ... 0.27
+Class 43: ... 0.10
+Class 44: ... 0.20
+Class 45: ... 0.17
+Class 46: ... 0.50
+Class 47: ... 0.03
+Class 48: ... 0.37
+Class 49: ... 0.47
+Class 50: ... 0.17
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.535007
+Expriment finished at 2017-07-14 12:24:12.217235 
+Per class accuracy
+Class 0: ... 0.50
+Class 1: ... 0.50
+Class 2: ... 0.77
+Class 3: ... 0.63
+Class 4: ... 0.41
+Class 5: ... 0.61
+Class 6: ... 0.40
+Class 7: ... 0.49
+Class 8: ... 0.38
+Class 9: ... 0.81
+Class 10: ... 0.26
+Class 11: ... 0.33
+Class 12: ... 0.28
+Class 13: ... 0.65
+Class 14: ... 0.78
+Class 15: ... 0.97
+Class 16: ... 0.55
+Class 17: ... 0.10
+Class 18: ... 0.75
+Class 19: ... 0.49
+Class 20: ... 0.22
+Class 21: ... 0.60
+Class 22: ... 0.71
+Class 23: ... 0.55
+Class 24: ... 0.26
+Class 25: ... 0.71
+Class 26: ... 0.89
+Class 27: ... 0.42
+Class 28: ... 0.68
+Class 29: ... 0.88
+Class 30: ... 0.96
+Class 31: ... 0.86
+Class 32: ... 0.48
+Class 33: ... 0.68
+Class 34: ... 0.76
+Class 35: ... 0.93
+Class 36: ... 0.58
+Class 37: ... 0.35
+Class 38: ... 0.67
+Class 39: ... 0.31
+Class 40: ... 0.31
+Class 41: ... 0.75
+Class 42: ... 0.19
+Class 43: ... 0.14
+Class 44: ... 0.21
+Class 45: ... 0.19
+Class 46: ... 0.53
+Class 47: ... 0.05
+Class 48: ... 0.57
+Class 49: ... 0.45
+Class 50: ... 0.11
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.541830
+Expriment finished at 2017-07-14 12:24:13.285226 
+Per class accuracy
+Class 0: ... 0.57
+Class 1: ... 0.47
+Class 2: ... 0.60
+Class 3: ... 0.63
+Class 4: ... 0.40
+Class 5: ... 0.63
+Class 6: ... 0.43
+Class 7: ... 0.60
+Class 8: ... 0.40
+Class 9: ... 0.83
+Class 10: ... 0.37
+Class 11: ... 0.37
+Class 12: ... 0.27
+Class 13: ... 0.77
+Class 14: ... 0.87
+Class 15: ... 0.97
+Class 16: ... 0.63
+Class 17: ... 0.07
+Class 18: ... 0.80
+Class 19: ... 0.43
+Class 20: ... 0.17
+Class 21: ... 0.67
+Class 22: ... 0.80
+Class 23: ... 0.60
+Class 24: ... 0.27
+Class 25: ... 0.73
+Class 26: ... 0.90
+Class 27: ... 0.43
+Class 28: ... 0.73
+Class 29: ... 0.90
+Class 30: ... 0.97
+Class 31: ... 0.90
+Class 32: ... 0.57
+Class 33: ... 0.73
+Class 34: ... 0.77
+Class 35: ... 0.93
+Class 36: ... 0.67
+Class 37: ... 0.37
+Class 38: ... 0.67
+Class 39: ... 0.37
+Class 40: ... 0.33
+Class 41: ... 0.77
+Class 42: ... 0.20
+Class 43: ... 0.10
+Class 44: ... 0.13
+Class 45: ... 0.20
+Class 46: ... 0.57
+Class 47: ... 0.00
+Class 48: ... 0.57
+Class 49: ... 0.43
+Class 50: ... 0.10
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.582994
+Expriment finished at 2017-07-15 13:52:06.275307 
+Per class accuracy
+Class 0: ... 0.58
+Class 1: ... 0.65
+Class 2: ... 0.44
+Class 3: ... 0.69
+Class 4: ... 0.44
+Class 5: ... 0.74
+Class 6: ... 0.36
+Class 7: ... 0.57
+Class 8: ... 0.41
+Class 9: ... 0.80
+Class 10: ... 0.34
+Class 11: ... 0.38
+Class 12: ... 0.27
+Class 13: ... 0.45
+Class 14: ... 0.70
+Class 15: ... 0.98
+Class 16: ... 0.68
+Class 17: ... 0.00
+Class 18: ... 0.65
+Class 19: ... 0.27
+Class 20: ... 0.10
+Class 21: ... 0.58
+Class 22: ... 0.78
+Class 23: ... 0.60
+Class 24: ... 0.41
+Class 25: ... 0.71
+Class 26: ... 0.91
+Class 27: ... 0.57
+Class 28: ... 0.76
+Class 29: ... 0.76
+Class 30: ... 1.00
+Class 31: ... 0.92
+Class 32: ... 0.60
+Class 33: ... 0.66
+Class 34: ... 0.84
+Class 35: ... 0.93
+Class 36: ... 0.62
+Class 37: ... 0.34
+Class 38: ... 0.84
+Class 39: ... 0.24
+Class 40: ... 0.34
+Class 41: ... 0.82
+Class 42: ... 0.15
+Class 43: ... 0.26
+Class 44: ... 0.27
+Class 45: ... 0.16
+Class 46: ... 0.57
+Class 47: ... 0.02
+Class 48: ... 0.39
+Class 49: ... 0.49
+Class 50: ... 0.11
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.528758
+Expriment finished at 2017-07-15 13:52:07.302093 
+Per class accuracy
+Class 0: ... 0.63
+Class 1: ... 0.63
+Class 2: ... 0.53
+Class 3: ... 0.73
+Class 4: ... 0.40
+Class 5: ... 0.73
+Class 6: ... 0.33
+Class 7: ... 0.57
+Class 8: ... 0.40
+Class 9: ... 0.80
+Class 10: ... 0.33
+Class 11: ... 0.37
+Class 12: ... 0.27
+Class 13: ... 0.40
+Class 14: ... 0.77
+Class 15: ... 0.97
+Class 16: ... 0.73
+Class 17: ... 0.00
+Class 18: ... 0.63
+Class 19: ... 0.37
+Class 20: ... 0.03
+Class 21: ... 0.47
+Class 22: ... 0.87
+Class 23: ... 0.67
+Class 24: ... 0.40
+Class 25: ... 0.67
+Class 26: ... 0.90
+Class 27: ... 0.47
+Class 28: ... 0.73
+Class 29: ... 0.73
+Class 30: ... 1.00
+Class 31: ... 0.90
+Class 32: ... 0.57
+Class 33: ... 0.67
+Class 34: ... 0.87
+Class 35: ... 0.87
+Class 36: ... 0.53
+Class 37: ... 0.37
+Class 38: ... 0.83
+Class 39: ... 0.27
+Class 40: ... 0.33
+Class 41: ... 0.77
+Class 42: ... 0.20
+Class 43: ... 0.20
+Class 44: ... 0.13
+Class 45: ... 0.17
+Class 46: ... 0.60
+Class 47: ... 0.07
+Class 48: ... 0.37
+Class 49: ... 0.53
+Class 50: ... 0.20
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_ti1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.483117
+Expriment finished at 2017-07-23 14:48:05.515791 
+Per class accuracy
+Class 0: ... 0.45
+Class 1: ... 0.14
+Class 2: ... 0.66
+Class 3: ... 0.59
+Class 4: ... 0.36
+Class 5: ... 0.73
+Class 6: ... 0.49
+Class 7: ... 0.56
+Class 8: ... 0.37
+Class 9: ... 0.73
+Class 10: ... 0.21
+Class 11: ... 0.37
+Class 12: ... 0.30
+Class 13: ... 0.50
+Class 14: ... 0.65
+Class 15: ... 0.93
+Class 16: ... 0.49
+Class 17: ... 0.22
+Class 18: ... 0.75
+Class 19: ... 0.33
+Class 20: ... 0.34
+Class 21: ... 0.44
+Class 22: ... 0.81
+Class 23: ... 0.38
+Class 24: ... 0.19
+Class 25: ... 0.70
+Class 26: ... 0.87
+Class 27: ... 0.51
+Class 28: ... 0.64
+Class 29: ... 0.89
+Class 30: ... 0.94
+Class 31: ... 0.84
+Class 32: ... 0.44
+Class 33: ... 0.65
+Class 34: ... 0.63
+Class 35: ... 0.88
+Class 36: ... 0.38
+Class 37: ... 0.37
+Class 38: ... 0.87
+Class 39: ... 0.33
+Class 40: ... 0.19
+Class 41: ... 0.44
+Class 42: ... 0.16
+Class 43: ... 0.17
+Class 44: ... 0.22
+Class 45: ... 0.13
+Class 46: ... 0.73
+Class 47: ... 0.04
+Class 48: ... 0.17
+Class 49: ... 0.26
+Class 50: ... 0.08
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_ti1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.511111
+Expriment finished at 2017-07-23 14:48:06.716102 
+Per class accuracy
+Class 0: ... 0.50
+Class 1: ... 0.13
+Class 2: ... 0.63
+Class 3: ... 0.63
+Class 4: ... 0.40
+Class 5: ... 0.77
+Class 6: ... 0.57
+Class 7: ... 0.60
+Class 8: ... 0.40
+Class 9: ... 0.77
+Class 10: ... 0.37
+Class 11: ... 0.37
+Class 12: ... 0.40
+Class 13: ... 0.53
+Class 14: ... 0.67
+Class 15: ... 0.93
+Class 16: ... 0.50
+Class 17: ... 0.23
+Class 18: ... 0.77
+Class 19: ... 0.37
+Class 20: ... 0.40
+Class 21: ... 0.40
+Class 22: ... 0.87
+Class 23: ... 0.33
+Class 24: ... 0.23
+Class 25: ... 0.70
+Class 26: ... 0.90
+Class 27: ... 0.57
+Class 28: ... 0.67
+Class 29: ... 0.93
+Class 30: ... 0.97
+Class 31: ... 0.87
+Class 32: ... 0.60
+Class 33: ... 0.67
+Class 34: ... 0.60
+Class 35: ... 0.90
+Class 36: ... 0.43
+Class 37: ... 0.50
+Class 38: ... 0.90
+Class 39: ... 0.33
+Class 40: ... 0.23
+Class 41: ... 0.43
+Class 42: ... 0.13
+Class 43: ... 0.17
+Class 44: ... 0.20
+Class 45: ... 0.13
+Class 46: ... 0.80
+Class 47: ... 0.03
+Class 48: ... 0.27
+Class 49: ... 0.23
+Class 50: ... 0.13
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.489945
+Expriment finished at 2017-07-25 12:29:59.188291 
+Per class accuracy
+Class 0: ... 0.41
+Class 1: ... 0.16
+Class 2: ... 0.90
+Class 3: ... 0.37
+Class 4: ... 0.39
+Class 5: ... 0.71
+Class 6: ... 0.62
+Class 7: ... 0.58
+Class 8: ... 0.39
+Class 9: ... 0.76
+Class 10: ... 0.29
+Class 11: ... 0.23
+Class 12: ... 0.29
+Class 13: ... 0.50
+Class 14: ... 0.71
+Class 15: ... 0.92
+Class 16: ... 0.47
+Class 17: ... 0.24
+Class 18: ... 0.77
+Class 19: ... 0.44
+Class 20: ... 0.31
+Class 21: ... 0.44
+Class 22: ... 0.73
+Class 23: ... 0.22
+Class 24: ... 0.12
+Class 25: ... 0.78
+Class 26: ... 0.97
+Class 27: ... 0.66
+Class 28: ... 0.71
+Class 29: ... 0.92
+Class 30: ... 0.94
+Class 31: ... 0.84
+Class 32: ... 0.36
+Class 33: ... 0.65
+Class 34: ... 0.80
+Class 35: ... 0.90
+Class 36: ... 0.62
+Class 37: ... 0.39
+Class 38: ... 0.82
+Class 39: ... 0.46
+Class 40: ... 0.19
+Class 41: ... 0.42
+Class 42: ... 0.10
+Class 43: ... 0.17
+Class 44: ... 0.29
+Class 45: ... 0.05
+Class 46: ... 0.45
+Class 47: ... 0.11
+Class 48: ... 0.09
+Class 49: ... 0.21
+Class 50: ... 0.06
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.515686
+Expriment finished at 2017-07-25 12:30:00.327110 
+Per class accuracy
+Class 0: ... 0.47
+Class 1: ... 0.23
+Class 2: ... 0.90
+Class 3: ... 0.40
+Class 4: ... 0.43
+Class 5: ... 0.83
+Class 6: ... 0.67
+Class 7: ... 0.70
+Class 8: ... 0.40
+Class 9: ... 0.80
+Class 10: ... 0.30
+Class 11: ... 0.27
+Class 12: ... 0.40
+Class 13: ... 0.53
+Class 14: ... 0.73
+Class 15: ... 0.93
+Class 16: ... 0.53
+Class 17: ... 0.27
+Class 18: ... 0.80
+Class 19: ... 0.43
+Class 20: ... 0.30
+Class 21: ... 0.47
+Class 22: ... 0.80
+Class 23: ... 0.23
+Class 24: ... 0.13
+Class 25: ... 0.77
+Class 26: ... 1.00
+Class 27: ... 0.70
+Class 28: ... 0.80
+Class 29: ... 1.00
+Class 30: ... 0.97
+Class 31: ... 0.83
+Class 32: ... 0.43
+Class 33: ... 0.67
+Class 34: ... 0.77
+Class 35: ... 0.90
+Class 36: ... 0.63
+Class 37: ... 0.47
+Class 38: ... 0.83
+Class 39: ... 0.50
+Class 40: ... 0.17
+Class 41: ... 0.43
+Class 42: ... 0.17
+Class 43: ... 0.13
+Class 44: ... 0.33
+Class 45: ... 0.03
+Class 46: ... 0.47
+Class 47: ... 0.03
+Class 48: ... 0.07
+Class 49: ... 0.20
+Class 50: ... 0.03
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.529925
+Expriment finished at 2017-07-25 14:31:23.777685 
+Per class accuracy
+Class 0: ... 0.45
+Class 1: ... 0.35
+Class 2: ... 0.87
+Class 3: ... 0.44
+Class 4: ... 0.45
+Class 5: ... 0.78
+Class 6: ... 0.63
+Class 7: ... 0.60
+Class 8: ... 0.38
+Class 9: ... 0.83
+Class 10: ... 0.21
+Class 11: ... 0.43
+Class 12: ... 0.26
+Class 13: ... 0.43
+Class 14: ... 0.82
+Class 15: ... 0.93
+Class 16: ... 0.51
+Class 17: ... 0.32
+Class 18: ... 0.71
+Class 19: ... 0.54
+Class 20: ... 0.24
+Class 21: ... 0.56
+Class 22: ... 0.81
+Class 23: ... 0.37
+Class 24: ... 0.21
+Class 25: ... 0.76
+Class 26: ... 0.94
+Class 27: ... 0.66
+Class 28: ... 0.66
+Class 29: ... 0.96
+Class 30: ... 0.96
+Class 31: ... 0.91
+Class 32: ... 0.40
+Class 33: ... 0.73
+Class 34: ... 0.86
+Class 35: ... 0.87
+Class 36: ... 0.58
+Class 37: ... 0.49
+Class 38: ... 0.88
+Class 39: ... 0.51
+Class 40: ... 0.28
+Class 41: ... 0.56
+Class 42: ... 0.05
+Class 43: ... 0.14
+Class 44: ... 0.35
+Class 45: ... 0.04
+Class 46: ... 0.52
+Class 47: ... 0.20
+Class 48: ... 0.15
+Class 49: ... 0.31
+Class 50: ... 0.04
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.562092
+Expriment finished at 2017-07-25 14:31:24.844340 
+Per class accuracy
+Class 0: ... 0.47
+Class 1: ... 0.37
+Class 2: ... 0.90
+Class 3: ... 0.43
+Class 4: ... 0.50
+Class 5: ... 0.87
+Class 6: ... 0.67
+Class 7: ... 0.70
+Class 8: ... 0.37
+Class 9: ... 0.87
+Class 10: ... 0.27
+Class 11: ... 0.50
+Class 12: ... 0.23
+Class 13: ... 0.43
+Class 14: ... 0.87
+Class 15: ... 0.93
+Class 16: ... 0.57
+Class 17: ... 0.33
+Class 18: ... 0.77
+Class 19: ... 0.57
+Class 20: ... 0.23
+Class 21: ... 0.57
+Class 22: ... 0.83
+Class 23: ... 0.37
+Class 24: ... 0.23
+Class 25: ... 0.80
+Class 26: ... 1.00
+Class 27: ... 0.77
+Class 28: ... 0.73
+Class 29: ... 1.00
+Class 30: ... 0.97
+Class 31: ... 0.93
+Class 32: ... 0.50
+Class 33: ... 0.73
+Class 34: ... 0.93
+Class 35: ... 0.93
+Class 36: ... 0.57
+Class 37: ... 0.53
+Class 38: ... 0.90
+Class 39: ... 0.53
+Class 40: ... 0.30
+Class 41: ... 0.60
+Class 42: ... 0.03
+Class 43: ... 0.20
+Class 44: ... 0.37
+Class 45: ... 0.10
+Class 46: ... 0.53
+Class 47: ... 0.27
+Class 48: ... 0.20
+Class 49: ... 0.40
+Class 50: ... 0.00
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.535179
+Expriment finished at 2017-07-26 11:10:32.917305 
+Per class accuracy
+Class 0: ... 0.46
+Class 1: ... 0.33
+Class 2: ... 0.78
+Class 3: ... 0.42
+Class 4: ... 0.43
+Class 5: ... 0.77
+Class 6: ... 0.65
+Class 7: ... 0.62
+Class 8: ... 0.40
+Class 9: ... 0.87
+Class 10: ... 0.27
+Class 11: ... 0.40
+Class 12: ... 0.33
+Class 13: ... 0.58
+Class 14: ... 0.80
+Class 15: ... 0.93
+Class 16: ... 0.45
+Class 17: ... 0.33
+Class 18: ... 0.72
+Class 19: ... 0.55
+Class 20: ... 0.25
+Class 21: ... 0.61
+Class 22: ... 0.75
+Class 23: ... 0.38
+Class 24: ... 0.18
+Class 25: ... 0.75
+Class 26: ... 0.95
+Class 27: ... 0.68
+Class 28: ... 0.62
+Class 29: ... 0.97
+Class 30: ... 0.96
+Class 31: ... 0.89
+Class 32: ... 0.47
+Class 33: ... 0.78
+Class 34: ... 0.84
+Class 35: ... 0.86
+Class 36: ... 0.64
+Class 37: ... 0.50
+Class 38: ... 0.78
+Class 39: ... 0.47
+Class 40: ... 0.26
+Class 41: ... 0.49
+Class 42: ... 0.12
+Class 43: ... 0.17
+Class 44: ... 0.42
+Class 45: ... 0.13
+Class 46: ... 0.49
+Class 47: ... 0.20
+Class 48: ... 0.20
+Class 49: ... 0.31
+Class 50: ... 0.04
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.579085
+Expriment finished at 2017-07-26 11:10:34.217231 
+Per class accuracy
+Class 0: ... 0.53
+Class 1: ... 0.30
+Class 2: ... 0.77
+Class 3: ... 0.43
+Class 4: ... 0.53
+Class 5: ... 0.90
+Class 6: ... 0.77
+Class 7: ... 0.73
+Class 8: ... 0.40
+Class 9: ... 0.93
+Class 10: ... 0.30
+Class 11: ... 0.43
+Class 12: ... 0.37
+Class 13: ... 0.63
+Class 14: ... 0.87
+Class 15: ... 0.93
+Class 16: ... 0.47
+Class 17: ... 0.40
+Class 18: ... 0.77
+Class 19: ... 0.57
+Class 20: ... 0.27
+Class 21: ... 0.67
+Class 22: ... 0.83
+Class 23: ... 0.40
+Class 24: ... 0.23
+Class 25: ... 0.73
+Class 26: ... 0.97
+Class 27: ... 0.80
+Class 28: ... 0.67
+Class 29: ... 1.00
+Class 30: ... 0.97
+Class 31: ... 0.90
+Class 32: ... 0.53
+Class 33: ... 0.77
+Class 34: ... 0.93
+Class 35: ... 0.93
+Class 36: ... 0.63
+Class 37: ... 0.60
+Class 38: ... 0.87
+Class 39: ... 0.47
+Class 40: ... 0.33
+Class 41: ... 0.60
+Class 42: ... 0.07
+Class 43: ... 0.17
+Class 44: ... 0.50
+Class 45: ... 0.20
+Class 46: ... 0.53
+Class 47: ... 0.30
+Class 48: ... 0.20
+Class 49: ... 0.37
+Class 50: ... 0.07
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.535312
+Expriment finished at 2017-07-27 11:28:15.966426 
+Per class accuracy
+Class 0: ... 0.49
+Class 1: ... 0.35
+Class 2: ... 0.76
+Class 3: ... 0.43
+Class 4: ... 0.39
+Class 5: ... 0.76
+Class 6: ... 0.60
+Class 7: ... 0.57
+Class 8: ... 0.42
+Class 9: ... 0.87
+Class 10: ... 0.33
+Class 11: ... 0.40
+Class 12: ... 0.32
+Class 13: ... 0.51
+Class 14: ... 0.82
+Class 15: ... 0.93
+Class 16: ... 0.44
+Class 17: ... 0.33
+Class 18: ... 0.70
+Class 19: ... 0.49
+Class 20: ... 0.24
+Class 21: ... 0.58
+Class 22: ... 0.79
+Class 23: ... 0.41
+Class 24: ... 0.18
+Class 25: ... 0.75
+Class 26: ... 0.95
+Class 27: ... 0.69
+Class 28: ... 0.68
+Class 29: ... 0.97
+Class 30: ... 0.98
+Class 31: ... 0.90
+Class 32: ... 0.53
+Class 33: ... 0.74
+Class 34: ... 0.87
+Class 35: ... 0.86
+Class 36: ... 0.64
+Class 37: ... 0.55
+Class 38: ... 0.86
+Class 39: ... 0.51
+Class 40: ... 0.22
+Class 41: ... 0.52
+Class 42: ... 0.05
+Class 43: ... 0.12
+Class 44: ... 0.35
+Class 45: ... 0.07
+Class 46: ... 0.54
+Class 47: ... 0.23
+Class 48: ... 0.21
+Class 49: ... 0.32
+Class 50: ... 0.01
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.569281
+Expriment finished at 2017-07-27 11:28:17.126382 
+Per class accuracy
+Class 0: ... 0.53
+Class 1: ... 0.33
+Class 2: ... 0.77
+Class 3: ... 0.47
+Class 4: ... 0.47
+Class 5: ... 0.80
+Class 6: ... 0.67
+Class 7: ... 0.60
+Class 8: ... 0.40
+Class 9: ... 0.90
+Class 10: ... 0.30
+Class 11: ... 0.43
+Class 12: ... 0.40
+Class 13: ... 0.57
+Class 14: ... 0.90
+Class 15: ... 0.93
+Class 16: ... 0.50
+Class 17: ... 0.37
+Class 18: ... 0.73
+Class 19: ... 0.47
+Class 20: ... 0.27
+Class 21: ... 0.57
+Class 22: ... 0.87
+Class 23: ... 0.40
+Class 24: ... 0.23
+Class 25: ... 0.77
+Class 26: ... 0.97
+Class 27: ... 0.77
+Class 28: ... 0.77
+Class 29: ... 1.00
+Class 30: ... 0.97
+Class 31: ... 0.90
+Class 32: ... 0.63
+Class 33: ... 0.77
+Class 34: ... 0.93
+Class 35: ... 0.93
+Class 36: ... 0.70
+Class 37: ... 0.60
+Class 38: ... 0.87
+Class 39: ... 0.53
+Class 40: ... 0.33
+Class 41: ... 0.63
+Class 42: ... 0.03
+Class 43: ... 0.10
+Class 44: ... 0.43
+Class 45: ... 0.10
+Class 46: ... 0.57
+Class 47: ... 0.27
+Class 48: ... 0.27
+Class 49: ... 0.33
+Class 50: ... 0.00
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi01_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of HMDB51 is 0.467089
+Expriment finished at 2017-07-27 16:56:36.681333 
+Per class accuracy
+Class 0: ... 0.54
+Class 1: ... 0.23
+Class 2: ... 0.57
+Class 3: ... 0.21
+Class 4: ... 0.38
+Class 5: ... 0.92
+Class 6: ... 0.40
+Class 7: ... 0.63
+Class 8: ... 0.46
+Class 9: ... 0.79
+Class 10: ... 0.30
+Class 11: ... 0.38
+Class 12: ... 0.31
+Class 13: ... 0.61
+Class 14: ... 0.43
+Class 15: ... 0.94
+Class 16: ... 0.32
+Class 17: ... 0.36
+Class 18: ... 0.73
+Class 19: ... 0.26
+Class 20: ... 0.31
+Class 21: ... 0.51
+Class 22: ... 0.73
+Class 23: ... 0.25
+Class 24: ... 0.19
+Class 25: ... 0.86
+Class 26: ... 0.81
+Class 27: ... 0.42
+Class 28: ... 0.65
+Class 29: ... 0.46
+Class 30: ... 0.90
+Class 31: ... 0.79
+Class 32: ... 0.40
+Class 33: ... 0.85
+Class 34: ... 0.57
+Class 35: ... 0.53
+Class 36: ... 0.68
+Class 37: ... 0.37
+Class 38: ... 0.65
+Class 39: ... 0.37
+Class 40: ... 0.22
+Class 41: ... 0.32
+Class 42: ... 0.13
+Class 43: ... 0.26
+Class 44: ... 0.33
+Class 45: ... 0.05
+Class 46: ... 0.63
+Class 47: ... 0.20
+Class 48: ... 0.12
+Class 49: ... 0.35
+Class 50: ... 0.04
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi01_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of HMDB51 is 0.492157
+Expriment finished at 2017-07-27 16:56:37.663710 
+Per class accuracy
+Class 0: ... 0.63
+Class 1: ... 0.30
+Class 2: ... 0.60
+Class 3: ... 0.13
+Class 4: ... 0.40
+Class 5: ... 0.93
+Class 6: ... 0.43
+Class 7: ... 0.73
+Class 8: ... 0.47
+Class 9: ... 0.83
+Class 10: ... 0.27
+Class 11: ... 0.40
+Class 12: ... 0.33
+Class 13: ... 0.60
+Class 14: ... 0.40
+Class 15: ... 0.93
+Class 16: ... 0.40
+Class 17: ... 0.40
+Class 18: ... 0.77
+Class 19: ... 0.33
+Class 20: ... 0.30
+Class 21: ... 0.57
+Class 22: ... 0.83
+Class 23: ... 0.30
+Class 24: ... 0.17
+Class 25: ... 0.87
+Class 26: ... 0.83
+Class 27: ... 0.50
+Class 28: ... 0.73
+Class 29: ... 0.47
+Class 30: ... 0.97
+Class 31: ... 0.83
+Class 32: ... 0.50
+Class 33: ... 0.90
+Class 34: ... 0.57
+Class 35: ... 0.60
+Class 36: ... 0.70
+Class 37: ... 0.37
+Class 38: ... 0.67
+Class 39: ... 0.37
+Class 40: ... 0.23
+Class 41: ... 0.33
+Class 42: ... 0.17
+Class 43: ... 0.27
+Class 44: ... 0.40
+Class 45: ... 0.03
+Class 46: ... 0.63
+Class 47: ... 0.20
+Class 48: ... 0.13
+Class 49: ... 0.37
+Class 50: ... 0.00
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi01_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 3 of HMDB51 is 0.456434
+Expriment finished at 2017-07-28 14:31:09.598358 
+Per class accuracy
+Class 0: ... 0.62
+Class 1: ... 0.26
+Class 2: ... 0.50
+Class 3: ... 0.50
+Class 4: ... 0.21
+Class 5: ... 0.75
+Class 6: ... 0.65
+Class 7: ... 0.36
+Class 8: ... 0.53
+Class 9: ... 0.88
+Class 10: ... 0.28
+Class 11: ... 0.33
+Class 12: ... 0.54
+Class 13: ... 0.60
+Class 14: ... 0.64
+Class 15: ... 1.00
+Class 16: ... 0.51
+Class 17: ... 0.37
+Class 18: ... 0.82
+Class 19: ... 0.20
+Class 20: ... 0.22
+Class 21: ... 0.62
+Class 22: ... 0.68
+Class 23: ... 0.18
+Class 24: ... 0.16
+Class 25: ... 0.80
+Class 26: ... 0.69
+Class 27: ... 0.43
+Class 28: ... 0.53
+Class 29: ... 0.78
+Class 30: ... 0.87
+Class 31: ... 0.94
+Class 32: ... 0.31
+Class 33: ... 0.43
+Class 34: ... 0.55
+Class 35: ... 0.73
+Class 36: ... 0.39
+Class 37: ... 0.26
+Class 38: ... 0.38
+Class 39: ... 0.54
+Class 40: ... 0.17
+Class 41: ... 0.42
+Class 42: ... 0.13
+Class 43: ... 0.11
+Class 44: ... 0.30
+Class 45: ... 0.08
+Class 46: ... 0.48
+Class 47: ... 0.00
+Class 48: ... 0.09
+Class 49: ... 0.43
+Class 50: ... 0.01
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi01_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 3 of HMDB51 is 0.489542
+Expriment finished at 2017-07-28 14:31:10.844163 
+Per class accuracy
+Class 0: ... 0.70
+Class 1: ... 0.30
+Class 2: ... 0.50
+Class 3: ... 0.50
+Class 4: ... 0.20
+Class 5: ... 0.77
+Class 6: ... 0.67
+Class 7: ... 0.47
+Class 8: ... 0.57
+Class 9: ... 0.90
+Class 10: ... 0.30
+Class 11: ... 0.37
+Class 12: ... 0.67
+Class 13: ... 0.67
+Class 14: ... 0.63
+Class 15: ... 1.00
+Class 16: ... 0.60
+Class 17: ... 0.43
+Class 18: ... 0.90
+Class 19: ... 0.23
+Class 20: ... 0.27
+Class 21: ... 0.63
+Class 22: ... 0.77
+Class 23: ... 0.23
+Class 24: ... 0.17
+Class 25: ... 0.80
+Class 26: ... 0.70
+Class 27: ... 0.60
+Class 28: ... 0.53
+Class 29: ... 0.80
+Class 30: ... 0.90
+Class 31: ... 0.97
+Class 32: ... 0.33
+Class 33: ... 0.43
+Class 34: ... 0.47
+Class 35: ... 0.80
+Class 36: ... 0.40
+Class 37: ... 0.40
+Class 38: ... 0.37
+Class 39: ... 0.60
+Class 40: ... 0.23
+Class 41: ... 0.43
+Class 42: ... 0.13
+Class 43: ... 0.13
+Class 44: ... 0.33
+Class 45: ... 0.07
+Class 46: ... 0.47
+Class 47: ... 0.00
+Class 48: ... 0.13
+Class 49: ... 0.50
+Class 50: ... 0.00
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of HMDB51 is 0.514792
+Expriment finished at 2017-07-28 15:58:46.901615 
+Per class accuracy
+Class 0: ... 0.64
+Class 1: ... 0.32
+Class 2: ... 0.61
+Class 3: ... 0.26
+Class 4: ... 0.42
+Class 5: ... 0.92
+Class 6: ... 0.43
+Class 7: ... 0.65
+Class 8: ... 0.45
+Class 9: ... 0.90
+Class 10: ... 0.21
+Class 11: ... 0.44
+Class 12: ... 0.33
+Class 13: ... 0.58
+Class 14: ... 0.67
+Class 15: ... 0.95
+Class 16: ... 0.35
+Class 17: ... 0.40
+Class 18: ... 0.70
+Class 19: ... 0.27
+Class 20: ... 0.33
+Class 21: ... 0.53
+Class 22: ... 0.75
+Class 23: ... 0.35
+Class 24: ... 0.20
+Class 25: ... 0.85
+Class 26: ... 0.86
+Class 27: ... 0.36
+Class 28: ... 0.62
+Class 29: ... 0.78
+Class 30: ... 0.94
+Class 31: ... 0.83
+Class 32: ... 0.44
+Class 33: ... 0.86
+Class 34: ... 0.71
+Class 35: ... 0.55
+Class 36: ... 0.68
+Class 37: ... 0.32
+Class 38: ... 0.83
+Class 39: ... 0.45
+Class 40: ... 0.16
+Class 41: ... 0.54
+Class 42: ... 0.17
+Class 43: ... 0.23
+Class 44: ... 0.47
+Class 45: ... 0.10
+Class 46: ... 0.67
+Class 47: ... 0.24
+Class 48: ... 0.24
+Class 49: ... 0.47
+Class 50: ... 0.11
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of HMDB51 is 0.547059
+Expriment finished at 2017-07-28 15:58:48.102514 
+Per class accuracy
+Class 0: ... 0.73
+Class 1: ... 0.40
+Class 2: ... 0.70
+Class 3: ... 0.27
+Class 4: ... 0.33
+Class 5: ... 0.93
+Class 6: ... 0.43
+Class 7: ... 0.80
+Class 8: ... 0.47
+Class 9: ... 0.90
+Class 10: ... 0.17
+Class 11: ... 0.40
+Class 12: ... 0.37
+Class 13: ... 0.60
+Class 14: ... 0.60
+Class 15: ... 0.97
+Class 16: ... 0.43
+Class 17: ... 0.53
+Class 18: ... 0.80
+Class 19: ... 0.30
+Class 20: ... 0.33
+Class 21: ... 0.53
+Class 22: ... 0.80
+Class 23: ... 0.27
+Class 24: ... 0.13
+Class 25: ... 0.87
+Class 26: ... 0.97
+Class 27: ... 0.47
+Class 28: ... 0.67
+Class 29: ... 0.80
+Class 30: ... 0.93
+Class 31: ... 0.87
+Class 32: ... 0.50
+Class 33: ... 0.90
+Class 34: ... 0.87
+Class 35: ... 0.67
+Class 36: ... 0.70
+Class 37: ... 0.37
+Class 38: ... 0.83
+Class 39: ... 0.50
+Class 40: ... 0.20
+Class 41: ... 0.73
+Class 42: ... 0.20
+Class 43: ... 0.20
+Class 44: ... 0.53
+Class 45: ... 0.10
+Class 46: ... 0.70
+Class 47: ... 0.23
+Class 48: ... 0.27
+Class 49: ... 0.53
+Class 50: ... 0.10
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 3 of HMDB51 is 0.502719
+Expriment finished at 2017-07-30 13:33:06.273662 
+Per class accuracy
+Class 0: ... 0.73
+Class 1: ... 0.35
+Class 2: ... 0.58
+Class 3: ... 0.55
+Class 4: ... 0.35
+Class 5: ... 0.72
+Class 6: ... 0.65
+Class 7: ... 0.44
+Class 8: ... 0.53
+Class 9: ... 0.92
+Class 10: ... 0.30
+Class 11: ... 0.42
+Class 12: ... 0.56
+Class 13: ... 0.73
+Class 14: ... 0.72
+Class 15: ... 0.99
+Class 16: ... 0.49
+Class 17: ... 0.51
+Class 18: ... 0.78
+Class 19: ... 0.36
+Class 20: ... 0.28
+Class 21: ... 0.63
+Class 22: ... 0.75
+Class 23: ... 0.27
+Class 24: ... 0.26
+Class 25: ... 0.81
+Class 26: ... 0.85
+Class 27: ... 0.52
+Class 28: ... 0.57
+Class 29: ... 0.68
+Class 30: ... 0.91
+Class 31: ... 0.90
+Class 32: ... 0.40
+Class 33: ... 0.42
+Class 34: ... 0.61
+Class 35: ... 0.69
+Class 36: ... 0.37
+Class 37: ... 0.21
+Class 38: ... 0.48
+Class 39: ... 0.61
+Class 40: ... 0.22
+Class 41: ... 0.54
+Class 42: ... 0.19
+Class 43: ... 0.12
+Class 44: ... 0.37
+Class 45: ... 0.07
+Class 46: ... 0.57
+Class 47: ... 0.01
+Class 48: ... 0.14
+Class 49: ... 0.49
+Class 50: ... 0.02
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 3 of HMDB51 is 0.543791
+Expriment finished at 2017-07-30 13:33:07.415879 
+Per class accuracy
+Class 0: ... 0.87
+Class 1: ... 0.27
+Class 2: ... 0.60
+Class 3: ... 0.57
+Class 4: ... 0.37
+Class 5: ... 0.70
+Class 6: ... 0.70
+Class 7: ... 0.57
+Class 8: ... 0.53
+Class 9: ... 0.90
+Class 10: ... 0.30
+Class 11: ... 0.40
+Class 12: ... 0.73
+Class 13: ... 0.77
+Class 14: ... 0.80
+Class 15: ... 1.00
+Class 16: ... 0.57
+Class 17: ... 0.60
+Class 18: ... 0.83
+Class 19: ... 0.43
+Class 20: ... 0.30
+Class 21: ... 0.73
+Class 22: ... 0.83
+Class 23: ... 0.30
+Class 24: ... 0.33
+Class 25: ... 0.83
+Class 26: ... 0.87
+Class 27: ... 0.60
+Class 28: ... 0.60
+Class 29: ... 0.77
+Class 30: ... 0.97
+Class 31: ... 0.90
+Class 32: ... 0.43
+Class 33: ... 0.40
+Class 34: ... 0.83
+Class 35: ... 0.73
+Class 36: ... 0.37
+Class 37: ... 0.33
+Class 38: ... 0.47
+Class 39: ... 0.67
+Class 40: ... 0.20
+Class 41: ... 0.57
+Class 42: ... 0.20
+Class 43: ... 0.13
+Class 44: ... 0.47
+Class 45: ... 0.03
+Class 46: ... 0.57
+Class 47: ... 0.00
+Class 48: ... 0.20
+Class 49: ... 0.57
+Class 50: ... 0.03
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 2 of HMDB51 is 0.514792
+Expriment finished at 2017-07-30 14:43:39.751521 
+Per class accuracy
+Class 0: ... 0.64
+Class 1: ... 0.32
+Class 2: ... 0.61
+Class 3: ... 0.26
+Class 4: ... 0.42
+Class 5: ... 0.92
+Class 6: ... 0.43
+Class 7: ... 0.65
+Class 8: ... 0.45
+Class 9: ... 0.90
+Class 10: ... 0.21
+Class 11: ... 0.44
+Class 12: ... 0.33
+Class 13: ... 0.58
+Class 14: ... 0.67
+Class 15: ... 0.95
+Class 16: ... 0.35
+Class 17: ... 0.40
+Class 18: ... 0.70
+Class 19: ... 0.27
+Class 20: ... 0.33
+Class 21: ... 0.53
+Class 22: ... 0.75
+Class 23: ... 0.35
+Class 24: ... 0.20
+Class 25: ... 0.85
+Class 26: ... 0.86
+Class 27: ... 0.36
+Class 28: ... 0.62
+Class 29: ... 0.78
+Class 30: ... 0.94
+Class 31: ... 0.83
+Class 32: ... 0.44
+Class 33: ... 0.86
+Class 34: ... 0.71
+Class 35: ... 0.55
+Class 36: ... 0.68
+Class 37: ... 0.32
+Class 38: ... 0.83
+Class 39: ... 0.45
+Class 40: ... 0.16
+Class 41: ... 0.54
+Class 42: ... 0.17
+Class 43: ... 0.23
+Class 44: ... 0.47
+Class 45: ... 0.10
+Class 46: ... 0.67
+Class 47: ... 0.24
+Class 48: ... 0.24
+Class 49: ... 0.47
+Class 50: ... 0.11
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 2 of HMDB51 is 0.547059
+Expriment finished at 2017-07-30 14:43:41.220971 
+Per class accuracy
+Class 0: ... 0.73
+Class 1: ... 0.40
+Class 2: ... 0.70
+Class 3: ... 0.27
+Class 4: ... 0.33
+Class 5: ... 0.93
+Class 6: ... 0.43
+Class 7: ... 0.80
+Class 8: ... 0.47
+Class 9: ... 0.90
+Class 10: ... 0.17
+Class 11: ... 0.40
+Class 12: ... 0.37
+Class 13: ... 0.60
+Class 14: ... 0.60
+Class 15: ... 0.97
+Class 16: ... 0.43
+Class 17: ... 0.53
+Class 18: ... 0.80
+Class 19: ... 0.30
+Class 20: ... 0.33
+Class 21: ... 0.53
+Class 22: ... 0.80
+Class 23: ... 0.27
+Class 24: ... 0.13
+Class 25: ... 0.87
+Class 26: ... 0.97
+Class 27: ... 0.47
+Class 28: ... 0.67
+Class 29: ... 0.80
+Class 30: ... 0.93
+Class 31: ... 0.87
+Class 32: ... 0.50
+Class 33: ... 0.90
+Class 34: ... 0.87
+Class 35: ... 0.67
+Class 36: ... 0.70
+Class 37: ... 0.37
+Class 38: ... 0.83
+Class 39: ... 0.50
+Class 40: ... 0.20
+Class 41: ... 0.73
+Class 42: ... 0.20
+Class 43: ... 0.20
+Class 44: ... 0.53
+Class 45: ... 0.10
+Class 46: ... 0.70
+Class 47: ... 0.23
+Class 48: ... 0.27
+Class 49: ... 0.53
+Class 50: ... 0.10
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.530725
+Expriment finished at 2017-07-30 14:50:12.551797 
+Per class accuracy
+Class 0: ... 0.43
+Class 1: ... 0.37
+Class 2: ... 0.77
+Class 3: ... 0.50
+Class 4: ... 0.41
+Class 5: ... 0.76
+Class 6: ... 0.59
+Class 7: ... 0.60
+Class 8: ... 0.40
+Class 9: ... 0.82
+Class 10: ... 0.25
+Class 11: ... 0.44
+Class 12: ... 0.29
+Class 13: ... 0.51
+Class 14: ... 0.79
+Class 15: ... 0.93
+Class 16: ... 0.43
+Class 17: ... 0.33
+Class 18: ... 0.69
+Class 19: ... 0.51
+Class 20: ... 0.22
+Class 21: ... 0.59
+Class 22: ... 0.77
+Class 23: ... 0.36
+Class 24: ... 0.24
+Class 25: ... 0.74
+Class 26: ... 0.94
+Class 27: ... 0.61
+Class 28: ... 0.66
+Class 29: ... 0.99
+Class 30: ... 0.96
+Class 31: ... 0.90
+Class 32: ... 0.50
+Class 33: ... 0.79
+Class 34: ... 0.87
+Class 35: ... 0.84
+Class 36: ... 0.59
+Class 37: ... 0.44
+Class 38: ... 0.85
+Class 39: ... 0.50
+Class 40: ... 0.14
+Class 41: ... 0.56
+Class 42: ... 0.18
+Class 43: ... 0.15
+Class 44: ... 0.41
+Class 45: ... 0.07
+Class 46: ... 0.55
+Class 47: ... 0.18
+Class 48: ... 0.22
+Class 49: ... 0.33
+Class 50: ... 0.02
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.566013
+Expriment finished at 2017-07-30 14:50:13.666326 
+Per class accuracy
+Class 0: ... 0.50
+Class 1: ... 0.40
+Class 2: ... 0.80
+Class 3: ... 0.50
+Class 4: ... 0.47
+Class 5: ... 0.77
+Class 6: ... 0.60
+Class 7: ... 0.67
+Class 8: ... 0.40
+Class 9: ... 0.80
+Class 10: ... 0.27
+Class 11: ... 0.50
+Class 12: ... 0.33
+Class 13: ... 0.50
+Class 14: ... 0.90
+Class 15: ... 0.93
+Class 16: ... 0.47
+Class 17: ... 0.40
+Class 18: ... 0.73
+Class 19: ... 0.53
+Class 20: ... 0.23
+Class 21: ... 0.60
+Class 22: ... 0.77
+Class 23: ... 0.33
+Class 24: ... 0.30
+Class 25: ... 0.77
+Class 26: ... 1.00
+Class 27: ... 0.73
+Class 28: ... 0.77
+Class 29: ... 1.00
+Class 30: ... 0.97
+Class 31: ... 0.93
+Class 32: ... 0.63
+Class 33: ... 0.87
+Class 34: ... 0.93
+Class 35: ... 0.93
+Class 36: ... 0.60
+Class 37: ... 0.60
+Class 38: ... 0.90
+Class 39: ... 0.50
+Class 40: ... 0.10
+Class 41: ... 0.63
+Class 42: ... 0.17
+Class 43: ... 0.13
+Class 44: ... 0.53
+Class 45: ... 0.10
+Class 46: ... 0.57
+Class 47: ... 0.10
+Class 48: ... 0.33
+Class 49: ... 0.37
+Class 50: ... 0.00
+
+--------------------------------------------------
+Compute clip accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of HMDB51 is 0.491092
+Expriment finished at 2017-08-01 22:10:54.780299 
+Per class accuracy
+Class 0: ... 0.41
+Class 1: ... 0.46
+Class 2: ... 0.62
+Class 3: ... 0.60
+Class 4: ... 0.31
+Class 5: ... 0.61
+Class 6: ... 0.41
+Class 7: ... 0.50
+Class 8: ... 0.28
+Class 9: ... 0.76
+Class 10: ... 0.23
+Class 11: ... 0.35
+Class 12: ... 0.30
+Class 13: ... 0.59
+Class 14: ... 0.69
+Class 15: ... 0.87
+Class 16: ... 0.41
+Class 17: ... 0.27
+Class 18: ... 0.66
+Class 19: ... 0.54
+Class 20: ... 0.31
+Class 21: ... 0.49
+Class 22: ... 0.73
+Class 23: ... 0.43
+Class 24: ... 0.20
+Class 25: ... 0.65
+Class 26: ... 0.89
+Class 27: ... 0.38
+Class 28: ... 0.63
+Class 29: ... 0.84
+Class 30: ... 0.94
+Class 31: ... 0.83
+Class 32: ... 0.46
+Class 33: ... 0.68
+Class 34: ... 0.81
+Class 35: ... 0.90
+Class 36: ... 0.52
+Class 37: ... 0.36
+Class 38: ... 0.76
+Class 39: ... 0.31
+Class 40: ... 0.23
+Class 41: ... 0.64
+Class 42: ... 0.19
+Class 43: ... 0.10
+Class 44: ... 0.14
+Class 45: ... 0.17
+Class 46: ... 0.57
+Class 47: ... 0.06
+Class 48: ... 0.38
+Class 49: ... 0.37
+Class 50: ... 0.11
+
+--------------------------------------------------
+Compute video accuracy of HMDB51 dataset.
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp//hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of HMDB51 is 0.542484
+Expriment finished at 2017-08-01 22:10:56.144722 
+Per class accuracy
+Class 0: ... 0.47
+Class 1: ... 0.57
+Class 2: ... 0.63
+Class 3: ... 0.60
+Class 4: ... 0.37
+Class 5: ... 0.70
+Class 6: ... 0.43
+Class 7: ... 0.57
+Class 8: ... 0.30
+Class 9: ... 0.83
+Class 10: ... 0.37
+Class 11: ... 0.40
+Class 12: ... 0.30
+Class 13: ... 0.63
+Class 14: ... 0.77
+Class 15: ... 0.90
+Class 16: ... 0.57
+Class 17: ... 0.27
+Class 18: ... 0.73
+Class 19: ... 0.57
+Class 20: ... 0.37
+Class 21: ... 0.53
+Class 22: ... 0.73
+Class 23: ... 0.50
+Class 24: ... 0.27
+Class 25: ... 0.70
+Class 26: ... 0.97
+Class 27: ... 0.57
+Class 28: ... 0.70
+Class 29: ... 0.90
+Class 30: ... 0.97
+Class 31: ... 0.90
+Class 32: ... 0.53
+Class 33: ... 0.77
+Class 34: ... 0.83
+Class 35: ... 0.93
+Class 36: ... 0.73
+Class 37: ... 0.40
+Class 38: ... 0.83
+Class 39: ... 0.33
+Class 40: ... 0.20
+Class 41: ... 0.73
+Class 42: ... 0.17
+Class 43: ... 0.10
+Class 44: ... 0.13
+Class 45: ... 0.17
+Class 46: ... 0.63
+Class 47: ... 0.03
+Class 48: ... 0.50
+Class 49: ... 0.47
+Class 50: ... 0.10

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+FEATURE_FOLDER=/home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/
+SPLIT=1
+
+# ./hmdb51_c3d_rgb_ltc_maxpool_sz58_len16_feature_extraction.sh 0 ../hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000.caffemodel $FEATURE_FOLDER
+# ./hmdb51_c3d_rgb_ltc_maxpool_sz112_len16_feature_extraction.sh 2 ../hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_ti1_iter_10000.caffemodel $FEATURE_FOLDER
+# ./hmdb51_c3d_rgb_fcan_pool1_sz112_len16_feature_extraction.sh 3 ../hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000.caffemodel $FEATURE_FOLDER
+# ./hmdb51_c3d_rgb_fcan_pool1_sz112_len16_split2_feature_extraction.sh 2 ../hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000.caffemodel $FEATURE_FOLDER
+# ./hmdb51_c3d_rgb_fcan_pool1_sz112_len16_split3_feature_extraction.sh 2 ../hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000.caffemodel $FEATURE_FOLDER
+wait
+
+# classification
+cd ../evaluate_models
+bash classify_clip_and_video_accuracy_hmdb51.sh $FEATURE_FOLDER/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000 $SPLIT rgb_fc8
