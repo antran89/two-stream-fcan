@@ -1,0 +1,1 @@
+../../../../scripts/create_hollywood2_output_folders.py

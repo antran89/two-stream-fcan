@@ -1,0 +1,16 @@
+net: "c3d_rgb_fcan_pool1_sz112_len16.prototxt"
+test_iter: 1000
+test_interval: 500
+base_lr: 0.0001
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 2000
+stepvalue: 4000
+display: 20
+max_iter: 5000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1"
+iter_size: 4
+random_seed: 1701

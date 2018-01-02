@@ -1,0 +1,280 @@
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi1_iter_5000
+Probability extention: rgb_prob
+Clip accuracy on testset split 1 of Hollywood2 is 0.400769
+Expriment finished at 2017-03-26 00:53:07.182005 
+Per class accuracy
+Class 0: ... 0.16
+Class 1: ... 0.68
+Class 2: ... 0.37
+Class 3: ... 0.39
+Class 4: ... 0.31
+Class 5: ... 0.15
+Class 6: ... 0.01
+Class 7: ... 0.68
+Class 8: ... 0.56
+Class 9: ... 0.31
+Class 10: ... 0.00
+Class 11: ... 0.18
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi1_iter_5000
+Probability extention: rgb_prob
+Video accuracy on testset split 1 of Hollywood2 is 0.476244
+Expriment finished at 2017-03-26 00:53:07.994464 
+Per class accuracy
+Class 0: ... 0.12
+Class 1: ... 0.78
+Class 2: ... 0.48
+Class 3: ... 0.53
+Class 4: ... 0.39
+Class 5: ... 0.11
+Class 6: ... 0.00
+Class 7: ... 0.74
+Class 8: ... 0.76
+Class 9: ... 0.37
+Class 10: ... 0.00
+Class 11: ... 0.21
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi2_iter_10000
+Probability extention: rgb_prob
+Clip accuracy on testset split 1 of Hollywood2 is 0.409457
+Expriment finished at 2017-03-26 22:16:38.309036 
+Per class accuracy
+Class 0: ... 0.21
+Class 1: ... 0.69
+Class 2: ... 0.35
+Class 3: ... 0.32
+Class 4: ... 0.35
+Class 5: ... 0.18
+Class 6: ... 0.14
+Class 7: ... 0.54
+Class 8: ... 0.55
+Class 9: ... 0.26
+Class 10: ... 0.15
+Class 11: ... 0.27
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi2_iter_10000
+Probability extention: rgb_prob
+Video accuracy on testset split 1 of Hollywood2 is 0.495475
+Expriment finished at 2017-03-26 22:16:38.948039 
+Per class accuracy
+Class 0: ... 0.27
+Class 1: ... 0.79
+Class 2: ... 0.39
+Class 3: ... 0.46
+Class 4: ... 0.39
+Class 5: ... 0.13
+Class 6: ... 0.12
+Class 7: ... 0.68
+Class 8: ... 0.71
+Class 9: ... 0.33
+Class 10: ... 0.19
+Class 11: ... 0.32
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi2_iter_10000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of Hollywood2 is 0.409457
+Expriment finished at 2017-03-28 12:38:46.152676 
+Per class accuracy
+Class 0: ... 0.21
+Class 1: ... 0.69
+Class 2: ... 0.35
+Class 3: ... 0.32
+Class 4: ... 0.35
+Class 5: ... 0.18
+Class 6: ... 0.14
+Class 7: ... 0.54
+Class 8: ... 0.55
+Class 9: ... 0.26
+Class 10: ... 0.15
+Class 11: ... 0.27
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi2_iter_10000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of Hollywood2 is 0.487557
+Expriment finished at 2017-03-28 12:38:46.986960 
+Per class accuracy
+Class 0: ... 0.27
+Class 1: ... 0.76
+Class 2: ... 0.39
+Class 3: ... 0.44
+Class 4: ... 0.44
+Class 5: ... 0.16
+Class 6: ... 0.14
+Class 7: ... 0.65
+Class 8: ... 0.65
+Class 9: ... 0.36
+Class 10: ... 0.22
+Class 11: ... 0.32
+
+--------------------------------------------------
+Compute clip accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi1_iter_5000
+Probability extention: rgb_fc8
+Clip accuracy on testset split 1 of Hollywood2 is 0.400769
+Expriment finished at 2017-03-28 14:01:14.681654 
+Per class accuracy
+Class 0: ... 0.16
+Class 1: ... 0.68
+Class 2: ... 0.37
+Class 3: ... 0.39
+Class 4: ... 0.31
+Class 5: ... 0.15
+Class 6: ... 0.01
+Class 7: ... 0.68
+Class 8: ... 0.56
+Class 9: ... 0.31
+Class 10: ... 0.00
+Class 11: ... 0.18
+
+--------------------------------------------------
+Compute video accuracy of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi1_iter_5000
+Probability extention: rgb_fc8
+Video accuracy on testset split 1 of Hollywood2 is 0.475113
+Expriment finished at 2017-03-28 14:01:15.428922 
+Per class accuracy
+Class 0: ... 0.12
+Class 1: ... 0.77
+Class 2: ... 0.42
+Class 3: ... 0.47
+Class 4: ... 0.44
+Class 5: ... 0.11
+Class 6: ... 0.00
+Class 7: ... 0.76
+Class 8: ... 0.74
+Class 9: ... 0.38
+Class 10: ... 0.00
+Class 11: ... 0.23
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi1_iter_5000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.448810
+Expriment finished at 2017-03-29 10:56:20.750279 
+Per class meanAP
+Class 0: ... 0.04
+Class 1: ... 1.00
+Class 2: ... 0.43
+Class 3: ... 0.29
+Class 4: ... 0.33
+Class 5: ... 0.44
+Class 6: ... 0.00
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.24
+Class 10: ... 0.00
+Class 11: ... 0.62
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//c3d_fcan_pool2_learned_link_fi2_iter_10000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.502960
+Expriment finished at 2017-03-29 11:19:17.429346 
+Per class meanAP
+Class 0: ... 0.15
+Class 1: ... 1.00
+Class 2: ... 0.46
+Class 3: ... 0.22
+Class 4: ... 0.51
+Class 5: ... 0.33
+Class 6: ... 0.25
+Class 7: ... 0.85
+Class 8: ... 1.00
+Class 9: ... 0.36
+Class 10: ... 0.60
+Class 11: ... 0.31
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.470337
+Expriment finished at 2017-08-02 10:51:13.403164 
+Per class meanAP
+Class 0: ... 0.01
+Class 1: ... 1.00
+Class 2: ... 0.54
+Class 3: ... 0.05
+Class 4: ... 0.55
+Class 5: ... 0.45
+Class 6: ... 0.25
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.07
+Class 10: ... 0.51
+Class 11: ... 0.22
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_5000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.470923
+Expriment finished at 2017-08-02 16:57:37.642244 
+Per class meanAP
+Class 0: ... 0.02
+Class 1: ... 1.00
+Class 2: ... 0.36
+Class 3: ... 0.29
+Class 4: ... 0.67
+Class 5: ... 0.55
+Class 6: ... 0.07
+Class 7: ... 0.82
+Class 8: ... 1.00
+Class 9: ... 0.19
+Class 10: ... 0.10
+Class 11: ... 0.59
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_5000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.470923
+Expriment finished at 2017-08-02 19:37:57.426987 
+Per class meanAP
+Class 0: ... 0.02
+Class 1: ... 1.00
+Class 2: ... 0.36
+Class 3: ... 0.29
+Class 4: ... 0.67
+Class 5: ... 0.55
+Class 6: ... 0.07
+Class 7: ... 0.82
+Class 8: ... 1.00
+Class 9: ... 0.19
+Class 10: ... 0.10
+Class 11: ... 0.59
+
+--------------------------------------------------
+Compute video meanAP of Hollywood2 dataset.
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//hollywood2_c3d_rgb_fcan_comp_pool2_sz112_len16_bs64_split1_fi1_iter_5000
+Probability extention: rgb_fc8
+Video meanAP on testset split 1 of Hollywood2 is 0.430691
+Expriment finished at 2017-08-02 19:52:53.957140 
+Per class meanAP
+Class 0: ... 0.01
+Class 1: ... 1.00
+Class 2: ... 0.34
+Class 3: ... 0.28
+Class 4: ... 0.43
+Class 5: ... 0.50
+Class 6: ... 0.00
+Class 7: ... 0.89
+Class 8: ... 1.00
+Class 9: ... 0.18
+Class 10: ... 0.00
+Class 11: ... 0.53
