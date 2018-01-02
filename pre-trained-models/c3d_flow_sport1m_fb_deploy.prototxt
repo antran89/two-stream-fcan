@@ -1,0 +1,503 @@
+name: "temporal_C3D_net"
+# ----------- flow data layer --------------------
+layer {
+  name: "data"
+  type: "Input"
+  top: "data"
+  input_param { shape: { dim: 1 dim: 2 dim: 16 dim: 112 dim: 112 } }
+}
+# ----------- 1st layer group ---------------
+layer {
+  name: "flow_conv1a"
+  type: "Convolution3D"
+  bottom: "data"
+  top: "flow_conv1a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 64
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "flow_relu1a"
+  type: "ReLU"
+  bottom: "flow_conv1a"
+  top: "flow_conv1a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_pool1"
+  type: "Pooling3D"
+  bottom: "flow_conv1a"
+  top: "flow_pool1"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 1
+    stride: 2
+    temporal_stride: 1
+  }
+}
+# ------------- 2nd layer group --------------
+layer {
+  name: "flow_conv2a"
+  type: "Convolution3D"
+  bottom: "flow_pool1"
+  top: "flow_conv2a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 128
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu2a"
+  type: "ReLU"
+  bottom: "flow_conv2a"
+  top: "flow_conv2a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_pool2"
+  type: "Pooling3D"
+  bottom: "flow_conv2a"
+  top: "flow_pool2"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 2
+    stride: 2
+    temporal_stride: 2
+  }
+}
+# ----------------- 3rd layer group --------------
+layer {
+  name: "flow_conv3a"
+  type: "Convolution3D"
+  bottom: "flow_pool2"
+  top: "flow_conv3a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 256
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu3a"
+  type: "ReLU"
+  bottom: "flow_conv3a"
+  top: "flow_conv3a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_conv3b"
+  type: "Convolution3D"
+  bottom: "flow_conv3a"
+  top: "flow_conv3b"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 256
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu3b"
+  type: "ReLU"
+  bottom: "flow_conv3b"
+  top: "flow_conv3b"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_pool3"
+  type: "Pooling3D"
+  bottom: "flow_conv3b"
+  top: "flow_pool3"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 2
+    stride: 2
+    temporal_stride: 2
+  }
+}
+
+# --------- 4th layer group
+layer {
+  name: "flow_conv4a"
+  type: "Convolution3D"
+  bottom: "flow_pool3"
+  top: "flow_conv4a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 512
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu4a"
+  type: "ReLU"
+  bottom: "flow_conv4a"
+  top: "flow_conv4a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_conv4b"
+  type: "Convolution3D"
+  bottom: "flow_conv4a"
+  top: "flow_conv4b"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 512
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu4b"
+  type: "ReLU"
+  bottom: "flow_conv4b"
+  top: "flow_conv4b"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_pool4"
+  type: "Pooling3D"
+  bottom: "flow_conv4b"
+  top: "flow_pool4"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 2
+    stride: 2
+    temporal_stride: 2
+  }
+}
+
+# --------------- 5th layer group --------
+layer {
+  name: "flow_conv5a"
+  type: "Convolution3D"
+  bottom: "flow_pool4"
+  top: "flow_conv5a"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 512
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu5a"
+  type: "ReLU"
+  bottom: "flow_conv5a"
+  top: "flow_conv5a"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_conv5b"
+  type: "Convolution3D"
+  bottom: "flow_conv5a"
+  top: "flow_conv5b"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution3d_param {
+    num_output: 512
+    kernel_size: 3
+    kernel_depth: 3
+    pad: 1
+    temporal_pad: 1
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu5b"
+  type: "ReLU"
+  bottom: "flow_conv5b"
+  top: "flow_conv5b"
+  relu_param {
+    engine: CAFFE
+  }
+}
+
+layer {
+  name: "flow_pool5"
+  type: "Pooling3D"
+  bottom: "flow_conv5b"
+  top: "flow_pool5"
+  pooling3d_param {
+    pool: MAX
+    kernel_size: 2
+    kernel_depth: 2
+    stride: 2
+    temporal_stride: 2
+  }
+}
+# ---------------- fc layers -------------
+layer {
+  name: "flow_fc6"
+  type: "InnerProduct"
+  bottom: "flow_pool5"
+  top: "flow_fc6"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  inner_product_param {
+    num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.005
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu6"
+  type: "ReLU"
+  bottom: "flow_fc6"
+  top: "flow_fc6"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_drop6"
+  type: "Dropout"
+  bottom: "flow_fc6"
+  top: "flow_fc6"
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layer {
+  name: "flow_fc7"
+  type: "InnerProduct"
+  bottom: "flow_fc6"
+  top: "flow_fc7"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  inner_product_param {
+    num_output: 4096
+    weight_filler {
+    type: "gaussian"
+      std: 0.005
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
+  }
+}
+layer {
+  name: "flow_relu7"
+  type: "ReLU"
+  bottom: "flow_fc7"
+  top: "flow_fc7"
+  relu_param {
+    engine: CAFFE
+  }
+}
+layer {
+  name: "flow_drop7"
+  type: "Dropout"
+  bottom: "flow_fc7"
+  top: "flow_fc7"
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layer {
+  name: "flow_fc8-1"
+  type: "InnerProduct"
+  bottom: "flow_fc7"
+  top: "flow_fc8-1"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  inner_product_param {
+    num_output: 487
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "prob"
+  type: "Softmax"
+  bottom: "flow_fc8-1"
+  top: "prob"
+}

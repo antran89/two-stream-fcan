@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python save_c3d_weights_old_format_into_pickle.py
+python load_pickle_c3d_weights_into_new_format.py
