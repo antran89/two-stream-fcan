@@ -12,8 +12,6 @@ if [ ! -d $1 ] ; then
   exit
 fi
 
-TOOLS=/home/tranlaman/Desktop/caffe-workspace/my-very-deep-caffe/cmake-build-c3d/tools/
-
 DATASET_FOLDER=$1
 DATABASE_FOLDER=$2
 NEW_LENGTH=$3

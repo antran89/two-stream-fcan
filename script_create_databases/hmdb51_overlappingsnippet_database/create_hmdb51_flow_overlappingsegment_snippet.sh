@@ -2,8 +2,8 @@
 # Create the flow lmdb inputs
 
 SCRIPT_NAME="$0"
-if [ $# != 2 ]; then
-  printf 'Usage: %s dataset_folder result_database_folder\n' $SCRIPT_NAME
+if [ $# != 3 ]; then
+  printf 'Usage: %s dataset_folder result_database_folder temporal_length\n' $SCRIPT_NAME
   exit
 fi
 
@@ -12,10 +12,9 @@ if [ ! -d $1 ]; then
   exit
 fi
 
-TOOLS=/home/tranlaman/Desktop/caffe-workspace/my-very-deep-caffe/cmake-build-c3d/tools/
-
 DATASET_FOLDER=$1
 DATABASE_FOLDER=$2
+NEW_LENGTH=$3
 SPLIT=1
 
 # some options variable
@@ -23,7 +22,6 @@ TIME_STAMP=$(date +%d.%H%M%S)
 GRAY=true
 IS_FLOW=true
 PRESERVE_TEMPORAL=true
-NEW_LENGTH=48
 SHUFFLED_TRAIN_FILE=$(printf "shuffled_train_list_frm_split%02d_%s.txt" $SPLIT $TIME_STAMP)
 SHUFFLED_TEST_FILE=$(printf "shuffled_test_list_frm_split%02d_%s.txt" $SPLIT $TIME_STAMP)
 TRAIN_DATABASE='train_snippets'
