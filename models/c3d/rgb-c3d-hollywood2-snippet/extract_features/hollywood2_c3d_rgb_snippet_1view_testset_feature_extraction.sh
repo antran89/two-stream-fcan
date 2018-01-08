@@ -52,7 +52,7 @@ filename=$(basename "$MODEL")
 name="${filename%.*}"
 FEATURE_FOLDER=$FEATURE_FOLDER/$name
 if [ ! -d $FEATURE_FOLDER ]; then
-	mkdir $FEATURE_FOLDER
+	mkdir -p $FEATURE_FOLDER
 fi
 
 ln -s $FEATURE_FOLDER $OUT_FOLDER_LINK

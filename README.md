@@ -26,7 +26,7 @@ Plan to release the source codes:
 - [x] Release test prototxt file
 - [x] Release caffemodel file
 - [x] Release classification scripts
-- [ ] Write README.md file.
+- [x] Write README.md file.
 
 The following is the guidance to reproduce the reported results and extend to more datasets.
 
@@ -126,8 +126,32 @@ bash pre-trained-models/get_pretrained_models.sh
 ```
 
 ## Testing Provided Models
+**NOTE**: Before running training or testing a model, we must first generate prefix index file (e.g., `ucf101_train_flow_len16_split01.txt`), also symbolic links for flow and/or rgb dataset folders. This is only needed to do one time for each model (i.e., each folder contains models in folder `models`).
+
+```
+cd models/fcan/ucf101_ltc_fcan_comp_snippet/scripts-create-database/
+bash run_create_database.sh
+```
+
+To test a model (e.g., `ucf101_ltc_fcan_comp_snippet`), let run:
+```
+cd models/fcan/ucf101_ltc_fcan_comp_snippet/extract_features/
+bash run_1view_feature_extraction.sh
+```
+
+The results are saved in foler `evaluate_models`.
 
 ## Training Two-stream FCAN Networks
+**NOTE**: Before running training or testing a model, we must first generate prefix index file (e.g., `ucf101_train_flow_len16_split01.txt`), also symbolic links for flow and/or rgb dataset folders. This is only needed to do one time for each model (i.e., each folder contains models in folder `models`).
+
+To train a model (e.g., `ucf101_ltc_fcan_comp_snippet`), after preparing all necessary files, let run (see an example in script `run_job.sh`):
+```
+cd models/fcan/ucf101_ltc_fcan_comp_snippet
+bash train_action_recognition_rgb_fcan.sh > c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi2.log 2>&1
+```
+
+### Configure the training for other data
+Please look at an example code in a folder and the above guidances to extend the training process to other splits or other datasets.
 
 ## Contact
 For any question, please contact
