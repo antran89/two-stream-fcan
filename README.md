@@ -141,6 +141,14 @@ bash run_1view_feature_extraction.sh
 
 The results are saved in foler `evaluate_models`.
 
+## Testing multiple features
+To test combined multiple features of two-stream FCAN, we refer to the folder `classify-video-multi-features`.
+
+```
+cd classify-video-multi-features/UCF101
+bash run_classify_multi_features_ucf101_2features.sh
+```
+
 ## Training Two-stream FCAN Networks
 **NOTE**: Before running training or testing a model, we must first generate prefix index file (e.g., `ucf101_train_flow_len16_split01.txt`), also symbolic links for flow and/or rgb dataset folders. This is only needed to do one time for each model (i.e., each folder contains models in folder `models`).
 

@@ -1,0 +1,731 @@
+
+--------------------------------------------------
+Clips classification with multi-features on Hollywood2 dataset.
+Clip accuracy on testset split 1 of Hollywood2 is 0.497964
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:03:40.629012 
+Per class accuracy
+Class 0: ... 0.25
+Class 1: ... 0.75
+Class 2: ... 0.30
+Class 3: ... 0.32
+Class 4: ... 0.46
+Class 5: ... 0.22
+Class 6: ... 0.09
+Class 7: ... 0.66
+Class 8: ... 0.65
+Class 9: ... 0.44
+Class 10: ... 0.06
+Class 11: ... 0.43
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of Hollywood2 is 0.616516
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:03:42.157996 
+Per class accuracy
+Class 0: ... 0.19
+Class 1: ... 0.87
+Class 2: ... 0.27
+Class 3: ... 0.43
+Class 4: ... 0.67
+Class 5: ... 0.18
+Class 6: ... 0.08
+Class 7: ... 0.78
+Class 8: ... 0.81
+Class 9: ... 0.63
+Class 10: ... 0.00
+Class 11: ... 0.63
+
+--------------------------------------------------
+Clips classification with multi-features on Hollywood2 dataset.
+Clip accuracy on testset split 1 of Hollywood2 is 0.486063
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:07:07.868809 
+Per class accuracy
+Class 0: ... 0.27
+Class 1: ... 0.76
+Class 2: ... 0.30
+Class 3: ... 0.37
+Class 4: ... 0.38
+Class 5: ... 0.22
+Class 6: ... 0.14
+Class 7: ... 0.60
+Class 8: ... 0.64
+Class 9: ... 0.40
+Class 10: ... 0.08
+Class 11: ... 0.41
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of Hollywood2 is 0.610860
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:07:09.219577 
+Per class accuracy
+Class 0: ... 0.25
+Class 1: ... 0.86
+Class 2: ... 0.30
+Class 3: ... 0.49
+Class 4: ... 0.53
+Class 5: ... 0.20
+Class 6: ... 0.17
+Class 7: ... 0.73
+Class 8: ... 0.79
+Class 9: ... 0.57
+Class 10: ... 0.08
+Class 11: ... 0.62
+
+--------------------------------------------------
+Clips classification with multi-features on Hollywood2 dataset.
+Clip accuracy on testset split 1 of Hollywood2 is 0.484525
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:09:12.935510 
+Per class accuracy
+Class 0: ... 0.32
+Class 1: ... 0.75
+Class 2: ... 0.22
+Class 3: ... 0.37
+Class 4: ... 0.41
+Class 5: ... 0.20
+Class 6: ... 0.05
+Class 7: ... 0.66
+Class 8: ... 0.65
+Class 9: ... 0.41
+Class 10: ... 0.04
+Class 11: ... 0.39
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of Hollywood2 is 0.633484
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:09:14.322243 
+Per class accuracy
+Class 0: ... 0.23
+Class 1: ... 0.90
+Class 2: ... 0.30
+Class 3: ... 0.47
+Class 4: ... 0.58
+Class 5: ... 0.22
+Class 6: ... 0.05
+Class 7: ... 0.77
+Class 8: ... 0.82
+Class 9: ... 0.66
+Class 10: ... 0.00
+Class 11: ... 0.67
+
+--------------------------------------------------
+Clips classification with multi-features on Hollywood2 dataset.
+Clip accuracy on testset split 1 of Hollywood2 is 0.484525
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:11:14.427952 
+Per class accuracy
+Class 0: ... 0.32
+Class 1: ... 0.75
+Class 2: ... 0.22
+Class 3: ... 0.37
+Class 4: ... 0.41
+Class 5: ... 0.20
+Class 6: ... 0.05
+Class 7: ... 0.66
+Class 8: ... 0.65
+Class 9: ... 0.41
+Class 10: ... 0.04
+Class 11: ... 0.39
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of Hollywood2 is 0.633484
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:11:15.737738 
+Per class accuracy
+Class 0: ... 0.23
+Class 1: ... 0.90
+Class 2: ... 0.30
+Class 3: ... 0.47
+Class 4: ... 0.58
+Class 5: ... 0.22
+Class 6: ... 0.05
+Class 7: ... 0.77
+Class 8: ... 0.82
+Class 9: ... 0.66
+Class 10: ... 0.00
+Class 11: ... 0.67
+
+--------------------------------------------------
+Clips classification with multi-features on Hollywood2 dataset.
+Clip accuracy on testset split 1 of Hollywood2 is 0.474661
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:46:50.065810 
+Per class accuracy
+Class 0: ... 0.31
+Class 1: ... 0.74
+Class 2: ... 0.24
+Class 3: ... 0.39
+Class 4: ... 0.36
+Class 5: ... 0.20
+Class 6: ... 0.04
+Class 7: ... 0.65
+Class 8: ... 0.64
+Class 9: ... 0.40
+Class 10: ... 0.03
+Class 11: ... 0.39
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of Hollywood2 is 0.624434
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 14:46:51.445651 
+Per class accuracy
+Class 0: ... 0.23
+Class 1: ... 0.88
+Class 2: ... 0.30
+Class 3: ... 0.47
+Class 4: ... 0.51
+Class 5: ... 0.20
+Class 6: ... 0.05
+Class 7: ... 0.78
+Class 8: ... 0.81
+Class 9: ... 0.66
+Class 10: ... 0.00
+Class 11: ... 0.67
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.695622
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 18:22:59.147547 
+Per class accuracy
+Class 0: ... 0.20
+Class 1: ... 1.00
+Class 2: ... 0.78
+Class 3: ... 0.84
+Class 4: ... 0.87
+Class 5: ... 0.88
+Class 6: ... 0.24
+Class 7: ... 0.78
+Class 8: ... 1.00
+Class 9: ... 1.00
+Class 10: ... 0.00
+Class 11: ... 0.77
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.729074
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 18:23:23.160215 
+Per class accuracy
+Class 0: ... 0.27
+Class 1: ... 1.00
+Class 2: ... 0.80
+Class 3: ... 1.00
+Class 4: ... 0.90
+Class 5: ... 0.89
+Class 6: ... 0.24
+Class 7: ... 0.88
+Class 8: ... 1.00
+Class 9: ... 0.87
+Class 10: ... 0.00
+Class 11: ... 0.90
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.711389
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 20:48:32.765887 
+Per class accuracy
+Class 0: ... 0.33
+Class 1: ... 1.00
+Class 2: ... 0.73
+Class 3: ... 0.66
+Class 4: ... 0.90
+Class 5: ... 0.77
+Class 6: ... 0.44
+Class 7: ... 0.71
+Class 8: ... 1.00
+Class 9: ... 1.00
+Class 10: ... 0.19
+Class 11: ... 0.82
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.630268
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 20:48:51.464322 
+Per class accuracy
+Class 0: ... 0.17
+Class 1: ... 1.00
+Class 2: ... 0.70
+Class 3: ... 0.53
+Class 4: ... 0.62
+Class 5: ... 0.79
+Class 6: ... 0.38
+Class 7: ... 0.58
+Class 8: ... 1.00
+Class 9: ... 1.00
+Class 10: ... 0.00
+Class 11: ... 0.79
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.721488
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-05-23 17:21:18.293719 
+Per class AP
+Class 0: ... 0.23
+Class 1: ... 1.00
+Class 2: ... 0.67
+Class 3: ... 0.89
+Class 4: ... 0.89
+Class 5: ... 0.88
+Class 6: ... 0.32
+Class 7: ... 0.89
+Class 8: ... 1.00
+Class 9: ... 1.00
+Class 10: ... 0.00
+Class 11: ... 0.89
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.572841
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:24:22.756011 
+Per class AP
+Class 0: ... 0.03
+Class 1: ... 1.00
+Class 2: ... 0.17
+Class 3: ... 0.68
+Class 4: ... 0.70
+Class 5: ... 0.64
+Class 6: ... 0.00
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.66
+Class 10: ... 0.00
+Class 11: ... 1.00
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.721488
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:30:36.767865 
+Per class AP
+Class 0: ... 0.23
+Class 1: ... 1.00
+Class 2: ... 0.67
+Class 3: ... 0.89
+Class 4: ... 0.89
+Class 5: ... 0.88
+Class 6: ... 0.32
+Class 7: ... 0.89
+Class 8: ... 1.00
+Class 9: ... 1.00
+Class 10: ... 0.00
+Class 11: ... 0.89
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.690549
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:53:20.241043 
+Per class AP
+Class 0: ... 0.09
+Class 1: ... 1.00
+Class 2: ... 0.76
+Class 3: ... 0.55
+Class 4: ... 0.77
+Class 5: ... 0.89
+Class 6: ... 0.65
+Class 7: ... 0.88
+Class 8: ... 0.87
+Class 9: ... 1.00
+Class 10: ... 0.26
+Class 11: ... 0.58
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.710585
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:54:24.170514 
+Per class AP
+Class 0: ... 0.15
+Class 1: ... 1.00
+Class 2: ... 0.57
+Class 3: ... 0.66
+Class 4: ... 1.00
+Class 5: ... 0.79
+Class 6: ... 0.60
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.89
+Class 10: ... 0.05
+Class 11: ... 0.82
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.562864
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:56:30.056912 
+Per class AP
+Class 0: ... 0.00
+Class 1: ... 1.00
+Class 2: ... 0.57
+Class 3: ... 0.58
+Class 4: ... 0.60
+Class 5: ... 0.65
+Class 6: ... 0.45
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.28
+Class 10: ... 0.10
+Class 11: ... 0.53
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.538757
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 12:11:13.661083 
+Per class AP
+Class 0: ... 0.01
+Class 1: ... 1.00
+Class 2: ... 0.50
+Class 3: ... 0.48
+Class 4: ... 0.56
+Class 5: ... 0.50
+Class 6: ... 0.31
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.51
+Class 10: ... 0.00
+Class 11: ... 0.59
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.709150
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 12:13:43.628730 
+Per class AP
+Class 0: ... 0.07
+Class 1: ... 1.00
+Class 2: ... 0.73
+Class 3: ... 0.74
+Class 4: ... 0.72
+Class 5: ... 0.89
+Class 6: ... 0.46
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 1.00
+Class 10: ... 0.20
+Class 11: ... 0.71
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.720281
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_comp_pool2_sz112_len16_bs64_split1_fi1_iter_5000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 21:34:22.820587 
+Per class AP
+Class 0: ... 0.23
+Class 1: ... 1.00
+Class 2: ... 0.90
+Class 3: ... 0.84
+Class 4: ... 0.78
+Class 5: ... 0.89
+Class 6: ... 0.27
+Class 7: ... 0.84
+Class 8: ... 1.00
+Class 9: ... 1.00
+Class 10: ... 0.00
+Class 11: ... 0.90
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.725499
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_5000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 21:38:22.258513 
+Per class AP
+Class 0: ... 0.24
+Class 1: ... 1.00
+Class 2: ... 0.68
+Class 3: ... 0.82
+Class 4: ... 0.88
+Class 5: ... 0.89
+Class 6: ... 0.32
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.88
+Class 10: ... 0.00
+Class 11: ... 1.00
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.658770
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-03 10:51:30.366009 
+Per class AP
+Class 0: ... 0.03
+Class 1: ... 1.00
+Class 2: ... 0.74
+Class 3: ... 0.40
+Class 4: ... 0.88
+Class 5: ... 1.00
+Class 6: ... 0.40
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.90
+Class 10: ... 0.05
+Class 11: ... 0.52
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.511968
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-03 10:56:17.410701 
+Per class AP
+Class 0: ... 0.00
+Class 1: ... 1.00
+Class 2: ... 0.42
+Class 3: ... 0.31
+Class 4: ... 0.73
+Class 5: ... 0.66
+Class 6: ... 0.15
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.20
+Class 10: ... 0.00
+Class 11: ... 0.68
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.511968
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-03 11:37:18.241824 
+Per class AP
+Class 0: ... 0.00
+Class 1: ... 1.00
+Class 2: ... 0.42
+Class 3: ... 0.31
+Class 4: ... 0.73
+Class 5: ... 0.66
+Class 6: ... 0.15
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.20
+Class 10: ... 0.00
+Class 11: ... 0.68
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.769990
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_rgb_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-08-03 11:40:13.219364 
+Per class AP
+Class 0: ... 1.00
+Class 1: ... 1.00
+Class 2: ... 0.56
+Class 3: ... 0.82
+Class 4: ... 0.79
+Class 5: ... 1.00
+Class 6: ... 0.82
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.70
+Class 10: ... 0.20
+Class 11: ... 0.36
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.784067
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_rgb_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-08-03 14:18:06.401364 
+Per class AP
+Class 0: ... 1.00
+Class 1: ... 1.00
+Class 2: ... 0.72
+Class 3: ... 0.61
+Class 4: ... 0.70
+Class 5: ... 1.00
+Class 6: ... 0.73
+Class 7: ... 1.00
+Class 8: ... 1.00
+Class 9: ... 0.77
+Class 10: ... 0.10
+Class 11: ... 0.78

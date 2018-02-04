@@ -1,0 +1,2240 @@
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.901665
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-01-26 19:53:04.097274 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.845384
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-01-26 19:53:16.005227 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.901930
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 2
+Expriment finished at 2017-01-26 21:39:07.302043 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.771694
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 2
+Expriment finished at 2017-01-26 23:26:45.519506 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.899551
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Expriment finished at 2017-02-07 11:00:31.109523 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.855032
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Expriment finished at 2017-02-07 12:44:59.534690 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.902458
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Expriment finished at 2017-02-07 16:34:21.740382 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.855275
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Expriment finished at 2017-02-07 18:43:15.621593 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.900344
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_wi2_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Expriment finished at 2017-02-12 14:29:02.105299 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.856005
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_wi2_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Expriment finished at 2017-02-12 16:32:00.707424 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.898229
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-15 21:57:38.095245 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.845416
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-15 21:57:48.936517 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.898229
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 2
+Expriment finished at 2017-02-15 22:00:36.341383 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.782135
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 2
+Expriment finished at 2017-02-15 22:00:47.297945 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.877082
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 2
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-15 22:02:22.530474 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.831643
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000/
+Prob extension: rgb_prob
+Fusion weight: 2
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-15 22:02:34.214632 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.901665
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-26 23:50:27.304760 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.845384
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-27 00:57:26.485794 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.907745
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 02:47:11.052562 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.873777
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 05:31:02.463253 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.917790
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 10:34:57.271450 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.868064
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 10:39:23.216592 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.913825
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 11:02:58.930292 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.867514
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 11:03:10.032550 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.897436
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_res_pool5_learned_link_pi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 14:39:35.519811 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.866509
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_res_pool5_learned_link_pi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 14:39:51.850763 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.899286
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features//c3d_fcan_res_pool4_learned_link_pi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 16:29:55.296826 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.867916
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features//c3d_fcan_res_pool4_learned_link_pi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 16:30:10.766685 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.904573
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 18:29:33.838169 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.841988
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 18:29:45.322810 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.895586
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Expriment finished at 2017-02-27 22:06:13.942643 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.856671
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Expriment finished at 2017-02-27 22:06:30.216986 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.892413
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 2
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Expriment finished at 2017-02-27 22:21:24.748909 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.858459
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 2
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Expriment finished at 2017-02-27 22:21:40.227220 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.908274
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 2
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Expriment finished at 2017-02-27 22:22:10.643465 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.866869
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 2
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Expriment finished at 2017-02-27 22:22:26.274137 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.912503
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 3
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 2
+Expriment finished at 2017-02-27 22:26:37.993434 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.860141
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 3
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 2
+Expriment finished at 2017-02-27 22:26:53.879247 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.892678
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 22:31:15.807454 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.858925
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-27 22:31:32.189168 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.891885
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 2
+Expriment finished at 2017-02-27 22:33:29.443665 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.858343
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 3
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool5_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 2
+Expriment finished at 2017-02-27 22:33:45.123902 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.908803
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fusion/c3d_early_fusion_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-01 10:59:17.155987 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.876527
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fusion/c3d_early_fusion_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-01 11:40:43.752793 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.910653
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-07 22:00:32.061392 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.876020
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-07 22:57:01.666586 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.783769
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_compensated_bs300_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-08 12:10:13.813877 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.706157
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_compensated_bs300_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-08 12:10:25.038378 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.819455
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_compensated_bs300_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 2
+Expriment finished at 2017-03-08 12:11:39.443260 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.685049
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_compensated_bs300_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 2
+Expriment finished at 2017-03-08 12:11:50.290800 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.906423
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_compensated_bs300_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-08 13:39:55.531819 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.896907
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-09 16:08:17.831274 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.920169
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-09 17:57:09.069601 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.859993
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-09 19:01:04.824003 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.925192
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 01:27:57.562695 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.883435
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 05:36:16.715087 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.925720
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool2_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-11 00:37:06.966796 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.881658
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool2_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-11 02:31:07.248874 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.912503
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool2_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-11 11:02:47.008939 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.876474
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_nd_conv_bs105_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool2_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-11 12:02:58.594421 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.919112
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool2_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-16 19:04:00.351241 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.866795
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool2_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-16 20:49:24.067551 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.912426
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-16 23:55:32.747990 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.867914
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 00:08:10.270373 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.900107
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split2_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 00:09:30.458215 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.869082
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split2_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 00:12:45.505258 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.916711
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs120_split2_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 03:06:40.563076 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.908141
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs120_split2_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split2_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 03:06:41.044646 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.875500
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs120_split2_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 03:16:30.589578 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.877428
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs120_split2_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split2_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 03:19:40.236695 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of UCF101 is 0.923972
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs126_split3_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 04:02:44.927355 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of UCF101 is 0.918019
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs126_split3_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split3_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 04:02:45.414570 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 3 of UCF101 is 0.885625
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs126_split3_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 04:03:02.856981 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 3 of UCF101 is 0.887216
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_bs126_split3_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split3_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 04:03:16.975636 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.913230
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split2_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 12:23:17.283550 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.864722
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split2_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 12:23:28.471223 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of UCF101 is 0.920184
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split3_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 12:32:07.031030 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 3 of UCF101 is 0.876326
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split3_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 12:32:18.476981 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of UCF101 is 0.916126
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split3_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 18:08:40.874144 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 3 of UCF101 is 0.885798
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool2_learned_link_split3_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 18:08:56.788508 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of UCF101 is 0.921807
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 13:47:07.959892 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.912426
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 13:48:14.635637 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 3 of UCF101 is 0.885798
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split3_bs120_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 14:44:14.911996 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.867914
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 14:44:46.136785 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.912426
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-29 00:33:15.220546 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.867914
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_split2_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-29 00:46:54.796459 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.896379
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_1_fc_split1_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_1_fc_split1_bs120_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-04-03 17:33:45.199091 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.878473
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_1_fc_split1_bs128_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_1_fc_split1_bs120_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-04-03 17:33:52.462540 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.920434
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz112_len32_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz112_len32_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-06 10:43:16.304740 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.888007
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz112_len32_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz112_len32_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-06 11:16:57.790164 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.922284
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-24 17:42:46.226646 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.872455
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-24 17:43:03.971389 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.858578
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-24 23:08:32.248929 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.734383
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-24 23:08:45.885738 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.919640
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-25 16:38:34.045925 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.871524
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_nd_conv_bs150_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-25 16:38:41.804091 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.913032
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-07-27 15:31:38.646605 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.837725
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-07-27 15:31:49.691573 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.915411
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.5
+Expriment finished at 2017-07-27 16:15:30.760914 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.812823
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.5
+Expriment finished at 2017-07-27 16:15:38.430938 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.914033
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-27 21:57:52.472364 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.870239
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp//c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-27 21:58:00.335444 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.924399
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-27 23:21:46.539822 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.896362
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-27 23:21:58.165765 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.933651
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-27 23:36:04.085184 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.888830
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_wholevideo_bs128_li2_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-27 23:36:18.665766 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.919640
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 11:05:47.558783 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.842073
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-fcan-features/c3d_flow_comp_fcan_pool1_learned_link_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 11:08:04.230555 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of UCF101 is 0.922890
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_fcan_pool1_sz112_len16_split3_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-30 19:50:37.842392 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 3 of UCF101 is 0.883698
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_fcan_pool1_sz112_len16_split3_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-30 19:50:53.269616 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of UCF101 is 0.930637
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_rgb_wholevideo_split2_bs128_li1_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_split2_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-31 23:50:17.933776 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 2 of UCF101 is 0.891045
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_fcan_pool1_sz112_len16_split2_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split2_bs120_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_rgb_wholevideo_split2_bs128_li1_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_split2_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-31 23:50:31.567242 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of UCF101 is 0.936688
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_fcan_pool1_sz112_len16_split3_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_rgb_wholevideo_split3_bs128_li1_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_split3_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-08-01 00:21:06.059229 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 3 of UCF101 is 0.894339
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_fcan_pool1_sz112_len16_split3_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_split3_bs126_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_rgb_wholevideo_split3_bs128_li1_iter_3500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/tsn_bn_inception/ucf101_tsn_bn_inception_flow_wholevideo_split3_bs128_fi1_iter_18000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-08-01 00:21:18.978836 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.785884
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_1frame_bs300_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-03 11:53:32.943872 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.710968
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_1frame_bs300_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-03 11:53:40.680909 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.780069
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/fcan-features//caffenet_fcan_conv1_learned_link_wi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_1frame_bs300_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-03 11:59:22.144299 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.694017
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/fcan-features//caffenet_fcan_conv1_learned_link_wi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_tvl1_1frame_bs300_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-03 11:59:29.971422 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.773196
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/ucf101_caffenet_comp_flow_1frame_snippet_bs128_fi1_iter_18000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-03 21:40:33.240029 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.779011
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/fcan-features/ucf101_caffenet_fcan_comp_pool1_learned_link_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/ucf101_caffenet_comp_flow_1frame_snippet_bs128_fi1_iter_18000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-04 12:08:40.783896 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.689319
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/fcan-features/ucf101_caffenet_fcan_comp_pool1_learned_link_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/ucf101_caffenet_comp_flow_1frame_snippet_bs128_fi1_iter_18000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-04 12:08:48.065886 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.781919
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/caffenet_rgb_bs300_split1_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/ucf101_caffenet_comp_flow_1frame_snippet_bs256_fi2_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-04 14:05:48.538481 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.784563
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/fcan-features//ucf101_caffenet_fcan_comp_pool1_learned_link_bs256_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/ucf101_caffenet_comp_flow_1frame_snippet_bs256_fi2_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-04 20:26:17.013718 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.701114
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/fcan-features//ucf101_caffenet_fcan_comp_pool1_learned_link_bs256_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/features/ucf101_caffenet_comp_flow_1frame_snippet_bs256_fi2_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-04 20:26:24.369001 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.896114
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 12:57:36.185885 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.841364
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_compensated_flow_bs120_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 12:57:45.517458 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.900608
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 13:46:06.508031 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.858846
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 13:46:14.624524 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.901401
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 14:31:28.442972 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.872725
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 14:31:36.316770 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.904044
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 18:48:43.457248 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.882247
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_split1_bs64_fi1_iter_20000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 18:48:51.022892 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.908010
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len60_1_fc_split1_bs128_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 18:15:25.773507 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.885504
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len60_1_fc_split1_bs128_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 18:15:32.974065 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.897965
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len48_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 20:07:14.218091 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.873831
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len48_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 20:07:21.846665 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.895850
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 20:09:54.281044 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.895850
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 20:09:54.281030 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.860693
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 20:10:01.666592 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.860693
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 20:10:02.253699 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.865186
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 21:28:37.358597 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.819467
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_rgb_ltc_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 21:28:45.294417 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.886069
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 21:36:20.232161 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.828490
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 21:36:28.254423 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.886069
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 14:30:54.582891 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.828490
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 14:31:27.248782 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.890563
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len16_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 14:57:28.855751 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.837175
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len16_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 14:57:37.733242 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.906688
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len32_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 16:34:35.218900 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.867593
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len32_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 16:34:59.065040 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.902723
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-20 17:26:48.647003 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.878198
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-20 17:26:56.818583 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.884219
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len16_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-20 20:25:51.584764 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.836889
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len16_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-20 20:26:07.423747 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.893999
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len32_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 13:23:26.342437 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.861723
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len32_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 13:23:47.517242 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.893206
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len48_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 14:48:18.823981 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.868813
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len48_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 14:48:29.552502 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.895057
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 15:24:24.591022 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.856723
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 15:24:32.935894 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.895057
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 16:23:02.537406 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.856723
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len32_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 16:23:10.273745 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.863336
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len16_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 16:55:43.523796 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.818398
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len16_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len16_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 16:55:52.502068 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.895321
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 18:49:51.830340 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.875744
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/ucf101_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_split1_bs64_ti1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 18:49:59.193437 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.908803
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 20:57:20.325067 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.880724
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len48_1_fc_split1_bs64_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 20:57:34.544071 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of UCF101 is 0.901930
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len60_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 21:35:47.135390 
+
+--------------------------------------------------
+Clips classification with multi-features on UCF101 dataset.
+Clip accuracy on testset split 1 of UCF101 is 0.884123
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-ltc-fcan-comp/ucf101_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len60_split1_bs64_fi1_iter_20000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/ucf101_features/c3d-features/c3d_flow_ltc_maxpool_sz58_len60_1_fc_split1_bs128_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-21 21:36:00.482985 

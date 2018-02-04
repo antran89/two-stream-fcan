@@ -1,0 +1,221 @@
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.695622
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 18:22:59.147547 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.729074
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 18:23:23.160215 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.711389
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 20:48:32.765887 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.630268
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-28 20:48:51.464322 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.721488
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-05-23 17:21:18.293719 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.572841
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:24:22.756011 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.721488
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_snippet_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:30:36.767865 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.710585
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features//hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:54:24.170514 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.562864
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 11:56:30.056912 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.538757
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 12:11:13.661083 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.709150
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_rgb_bs128_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 12:13:43.628730 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.720281
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_comp_pool2_sz112_len16_bs64_split1_fi1_iter_5000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 21:34:22.820587 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.725499
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_5000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-02 21:38:22.258513 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.658770
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-03 10:51:30.366009 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.511968
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-03 10:56:17.410701 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.511968
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_rgb_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features//hollywood2_c3d_flow_bs64_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-08-03 11:37:18.241824 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.769990
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_rgb_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-08-03 11:40:13.219364 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Hollywood2 is 0.784067
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/fcan-c3d-features/hollywood2_c3d_rgb_fcan_comp_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/c3d-features/hollywood2_c3d_comp_flow_bs120_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_rgb_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hollywood2_features/tsn_bn_inception/hollywood2_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-08-03 14:18:06.401364 

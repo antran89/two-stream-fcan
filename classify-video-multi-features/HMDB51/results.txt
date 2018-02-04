@@ -1,0 +1,1533 @@
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.631373
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-02 15:52:35.352927 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.525204
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-02 15:52:39.385250 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.652288
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-17 12:43:05.289581 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.529711
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-02-17 13:06:13.481518 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.671242
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-28 22:29:03.407084 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.556489
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-02-28 22:55:46.598621 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.681046
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fusion/hmdb51_c3d_early_fusion_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-01 14:52:48.172297 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.605244
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fusion/hmdb51_c3d_early_fusion_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-01 15:59:59.115527 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.670588
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_comp_fcan_pool5_learned_link_ucf101_initialized_wi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-07 15:01:54.057532 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.670588
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_comp_fcan_pool5_learned_link_ucf101_initialized_wi1_iter_10000
+Prob extension: rgb_fc8_hmdb51
+Fusion weight: 1
+Expriment finished at 2017-03-07 16:41:04.224801 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.599749
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_comp_fcan_pool5_learned_link_ucf101_initialized_wi1_iter_10000
+Prob extension: rgb_fc8_hmdb51
+Fusion weight: 1
+Expriment finished at 2017-03-07 17:05:11.855340 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.669281
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_comp_fcan_pool5_learned_link_ucf101_initialized_wi1_iter_10000
+Prob extension: rgb_fc8_hmdb51
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fusion/hmdb51_c3d_early_fusion_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-07 18:32:57.767840 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.613378
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_comp_fcan_pool5_learned_link_ucf101_initialized_wi1_iter_10000
+Prob extension: rgb_fc8_hmdb51
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fusion/hmdb51_c3d_early_fusion_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-07 19:20:11.354583 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.656209
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 15:00:38.178308 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.550568
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 15:17:28.831218 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.682353
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 18:15:22.810802 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.602416
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 19:12:03.630541 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.679739
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 20:57:51.181696 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.591668
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-10 21:19:56.898313 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.662092
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-16 19:20:01.362647 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.546994
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-16 19:49:34.067358 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.644444
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-16 21:44:16.620553 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.547794
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs160_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-16 21:44:25.189061 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.660131
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:27:45.135465 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.671242
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:27:45.138983 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.564553
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:27:52.046129 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.602101
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:27:55.025656 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of HMDB51 is 0.656209
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:48:39.015164 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of HMDB51 is 0.660784
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:48:39.018588 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 3 of HMDB51 is 0.561868
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:48:45.535055 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 3 of HMDB51 is 0.595395
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 19:48:48.804297 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.636601
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs120_split2_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 20:48:37.175504 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.561720
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs120_split2_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 20:48:44.053805 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of HMDB51 is 0.659477
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs120_split3_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 20:52:17.883186 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 3 of HMDB51 is 0.552824
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs120_split3_fi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 20:52:25.061394 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of HMDB51 is 0.659477
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs120_split3_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-03-17 21:02:23.473252 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 3 of HMDB51 is 0.524469
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split3_fi1_iter_10000/
+Prob extension: rgb_prob
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs120_split3_fi1_iter_20000/
+Prob extension: flow_prob
+Fusion weight: 1
+Expriment finished at 2017-03-17 21:02:30.582193 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.660131
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 21:06:14.538791 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.564553
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool2_learned_link_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-17 21:06:21.143153 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.657516
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 17:06:44.764419 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.563698
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split2_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 17:13:25.989567 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of HMDB51 is 0.663399
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 17:13:59.765853 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 3 of HMDB51 is 0.568128
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_rgb_overlapping_bs128_split3_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-03-18 17:16:35.384053 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.671242
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool1_learned_link_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-24 17:00:22.642843 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.558996
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-fcan-comp/c3d_fcan_pool1_learned_link_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-24 17:00:29.441719 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.684967
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-26 12:17:01.908855 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.559343
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-26 12:17:04.831341 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.632680
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/fcan-features//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-26 14:44:36.122142 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.547528
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/fcan-features//hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/c3d_flow_overlapping_bs105_split1_fi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-26 14:44:39.099071 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.681699
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-27 12:53:11.769557 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.558596
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-27 12:53:14.895545 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.639869
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-07-27 14:26:25.562291 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.639869
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-07-27 14:30:14.787568 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.517123
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-07-27 14:30:17.998628 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.639869
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-07-27 16:09:42.831885 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.517123
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1
+Expriment finished at 2017-07-27 16:09:45.770049 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.645098
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.5
+Expriment finished at 2017-07-27 16:13:30.647115 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.490985
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.5
+Expriment finished at 2017-07-27 16:13:33.271617 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.643137
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 11:55:35.026667 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.560036
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 11:55:37.923313 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.658170
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 18:19:46.085622 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.568161
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 18:19:49.107274 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.675163
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 21:13:13.611255 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.618392
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 21:13:17.699508 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.700654
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 21:23:41.807747 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.612658
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split1_fi01_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_wholevideo_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-28 21:23:47.176189 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.658170
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-30 16:17:29.448423 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.568161
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-30 16:17:33.328251 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of HMDB51 is 0.661438
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-30 17:03:25.347120 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 3 of HMDB51 is 0.569189
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-07-30 17:03:28.581451 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 2 of HMDB51 is 0.671242
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_rgb_wholevideo_split2_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_split2_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-31 23:27:47.821795 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 2 of HMDB51 is 0.598092
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split2_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split2_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_rgb_wholevideo_split2_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_split2_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-31 23:27:53.128465 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 3 of HMDB51 is 0.672549
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_rgb_wholevideo_split3_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_split3_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-31 23:49:36.130286 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 3 of HMDB51 is 0.600223
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_fcan_pool1_sz112_len16_bs64_split3_fi2_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split3_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_rgb_wholevideo_split3_bs128_li1_iter_2500
+Prob extension: rgb_fc
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/tsn_bn_inception/hmdb51_tsn_bn_inception_flow_wholevideo_split3_bs128_fi1_iter_7000
+Prob extension: flow_fc
+Fusion weight: 1.0
+Expriment finished at 2017-07-31 23:49:41.789702 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.645098
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 19:11:35.195394 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.543420
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_compensated_flow_bs120_split1_wi1_iter_20000/
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 19:11:38.332907 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.645752
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 22:38:25.723883 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.631480
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 22:38:28.254559 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.641830
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_bs64_split1_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 23:13:26.114548 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.682860
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len48_1_fc_bs64_split1_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-05 23:13:28.486842 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.660784
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 10:42:36.658820 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.703145
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 10:42:38.605670 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.672549
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 18:00:03.703599 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.654248
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len48_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 22:13:40.235200 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.688625
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len48_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 22:13:42.601954 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.645752
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 22:18:23.007274 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.634200
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 22:18:25.529379 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.666013
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-06 22:19:24.253032 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.672549
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-07 00:04:29.250885 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.701672
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-07 00:04:30.881167 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.620261
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 18:37:33.823840 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.565904
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 18:37:36.564030 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.638562
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 18:47:48.513849 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.565024
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 18:47:51.326987 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.647712
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 21:36:49.405162 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.635605
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len32_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 21:36:52.041172 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.639216
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 22:06:04.013943 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.569744
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_maxpool_sz58_len16_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-14 22:06:06.871598 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.640523
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-15 16:52:13.859664 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.628341
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len32_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-15 16:52:16.634179 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.630065
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-15 17:04:31.698966 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.573665
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len16_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-15 17:04:34.707274 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.650980
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 13:31:13.512412 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.695515
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 13:31:15.836909 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.664706
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 13:39:48.492224 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.703622
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len60_1_fc_bs64_split1_fi1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 13:39:50.380632 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.598039
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len16_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 14:14:55.505414 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.545661
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len16_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len16_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-16 14:15:00.279972 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.630065
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-18 18:25:20.251115 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.624604
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len32_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len32_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-18 18:25:23.142197 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.633987
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len48_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-18 19:34:38.917328 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.630719
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len48_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-18 20:34:30.220495 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.674529
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len48_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-18 20:34:32.426936 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.662092
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-22 14:29:57.066097 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.687809
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_rgb_ltc_maxpool_sz58_len60_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-22 14:29:58.993748 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.668627
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len60_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-22 14:34:47.657928 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.708604
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len60_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len60_1_fc_bs64_split1_wi1_iter_20000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-22 14:34:49.557169 
+
+--------------------------------------------------
+Video classification with multiple cnn features.
+Video accuracy on testset split 1 of HMDB51 is 0.655556
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-22 14:40:37.897325 
+
+--------------------------------------------------
+Clips classification with multi-features on HMDB51 dataset.
+Clip accuracy on testset split 1 of HMDB51 is 0.687605
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-ltc-fcan-comp/hmdb51_c3d_rgb_ltc_fcan_pool1_maxpool_sz58_len48_1_fc_bs64_split1_ti1_iter_10000
+Prob extension: rgb_fc8
+Fusion weight: 1.0
+Feature folder: /home/tranlaman/Public/data/hmdb51_features/c3d-features/hmdb51_c3d_flow_ltc_maxpool_sz58_len48_1_fc_bs64_split1_wi1_iter_10000
+Prob extension: flow_fc8
+Fusion weight: 1.0
+Expriment finished at 2017-08-22 14:40:40.290944 

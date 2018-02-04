@@ -1,0 +1,63 @@
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Olympic is 0.804525
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features/olympic_c3d_rgb_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features/olympic_c3d_comp_flow_bs128_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-05-23 10:38:00.665740 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Olympic is 0.797179
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features/olympic_c3d_rgb_bs128_fi2_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features/olympic_c3d_comp_flow_bs128_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-05-23 10:41:41.212478 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Olympic is 0.773519
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/olympic_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_bs128_fi1_iter_5000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features/olympic_c3d_comp_flow_bs128_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-05-23 11:42:48.423587 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Olympic is 0.790017
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/olympic_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features/olympic_c3d_comp_flow_bs128_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Expriment finished at 2017-05-23 11:43:17.781810 
+
+--------------------------------------------------
+Video classification (meanAP) with multiple cnn features.
+Video meanAP on testset split 1 of Olympic is 0.764761
+Test on following feature folders:
+Feature folder: /home/tranlaman/Public/data/olympic_features/fcan-c3d-features/c3d_fcan_pool2_learned_link_bs128_fi2_iter_10000/
+Prob extension: rgb_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features/olympic_c3d_comp_flow_bs128_wi1_iter_10000/
+Prob extension: flow_fc8
+Fusion weight: 1
+Feature folder: /home/tranlaman/Public/data/olympic_features/c3d-features//olympic_c3d_rgb_bs128_fi1_iter_5000
+Prob extension: rgb_fc8
+Fusion weight: 1
+Expriment finished at 2017-05-23 12:02:09.635443 
